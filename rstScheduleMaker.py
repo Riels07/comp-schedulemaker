@@ -223,12 +223,12 @@ def main(csv_file):
                 title = ('COMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
                          + ': ' + line['COURSE TITLE'])
                 rstfile.write(title)
-                rstfile.write('\n' + '-' * (len(title) + 1))
+                rstfile.write('\n' + '~' * (len(title) + 1))
             else:
                 title = ('COMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
                          + ': ' + parse_title(line['CATALOG NUMBER']))
                 rstfile.write(title)
-                rstfile.write('\n' + '-' *(len(title) + 1))
+                rstfile.write('\n' + '~' *(len(title) + 1))
 
 
             #prints session if not for full semester
@@ -284,7 +284,8 @@ def main(csv_file):
         print ('RSTFILE COMPLETE')
         print (str(courses) + ' courses added.')
 
-main("SpringCOMP2015.csv")
+
+main(raw_input("CSV File: "))
 
 
         
