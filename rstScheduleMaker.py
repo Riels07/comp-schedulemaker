@@ -267,10 +267,10 @@ def main(csv_file):
             #    rstfile.write('\n')
                 
             #prints the link to the course description
-            if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
-                rstfile.write('\nCourse Description: See ' +
-                        'http://www.luc.edu/cs/schedules/spring2015/comptopics/')                           
-            elif line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
+            #if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
+              #  rstfile.write('\nCourse Description: See ' +
+              #          'http://www.luc.edu/cs/schedules/spring2015/comptopics/')                           
+            if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
                 rstfile.write('\nCourse Description: ' +
                        ':doc:`comp314-315`')
             else:
