@@ -238,15 +238,15 @@ def main(csv_file):
                     rstfile.write(title)
                     rstfile.write('\n' + '~' * (len(title) + 1))
                     rstfile.write('\n.. csv-table::')
-                    rstfile.write('\n    :header: "Section", "Title", "Instructor", "Time", "Day", "Campus"')
-   	            rstfile.write('\n    :widths: 10, 300, 200, 200, 25, 50\n\n')
+                    rstfile.write('\n    :header: "Section", "Topic", "Instructor", "Time", "Day(s)", "Campus"')
+   	            rstfile.write('\n    :widths: 10, 100, 75, 75, 30, 50\n\n')
                 else:
                     title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + ': ' + parse_title(line['CATALOG NUMBER']))
                     rstfile.write(title)
                     rstfile.write('\n' + '~' *(len(title) + 1) +'\n')
                     rstfile.write('\n.. csv-table::')
-                    rstfile.write('\n    :header: "Section", "Instructor", "Time", "Day", "Campus"')
-   	            rstfile.write('\n    :widths: 10, 200, 200, 25, 50\n\n')
+                    rstfile.write('\n    :header: "Section", "Instructor", "Time", "Day(s)", "Campus"')
+   	            rstfile.write('\n    :widths: 10, 175, 75, 30, 50\n\n')
 
 
             #prints session if not for full semester
@@ -272,8 +272,11 @@ def main(csv_file):
             #prints the start - end time
             rstfile.write(parse_time(line['START TIME'].strip(), line['END TIME'].strip()) + ', ')
 
-            #prints the days of the week                
-            rstfile.write(line['CLASS MEETING PATTERN'] + ', ')
+            #prints the days of the week
+            if line['CLASS MEETING PATTERN'] == '':
+                rstfile.write('TBD, ')
+            else:             
+                rstfile.write(line['CLASS MEETING PATTERN'] + ', ')
                 
             #prints the campus
             rstfile.write(parse_campus(line['CLASS LOCATION'].strip()) + '\n')
