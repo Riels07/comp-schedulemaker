@@ -208,20 +208,51 @@ def parse_note(note):
         return None
     
 # Reads the spreadsheet and saves rst file in RSTFILE.txt
-def main(csv_file):
+def main(csv_file, semester):
     
     with open(csv_file, 'r') as f:
         rstfile = open('RSTFILEtest.txt', "w")
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
-	
         courses = 0
 	newCourse = True
+        firstGraduateCourse = True
         currentCourseNumber = '0'
+
+	rstfile.write(semester + ' - Schedule\n')
+        rstfile.write('================================\n')
+        rstfile.write('\n')
+        rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
+        rstfile.write('\n')
+        rstfile.write('For classroom locations and open/full status, see `LOCUS <http://www.luc.edu/locus>`_.\n')
+        rstfile.write('\n')
+        rstfile.write('Note: While we update this page regularly, please check `LOCUS <http://www.luc.edu/locus>`_ ' 
+			+ 'for the most recent information.\n')
+        rstfile.write('\n')
+        rstfile.write('**In case of conflict, information on LOCUS should be considered authoritative.**\n')
+        rstfile.write('\n')
+
+        rstfile.write('QuickLinks\n')
+        rstfile.write('~~~~~~~~~~~~~\n')
+        rstfile.write('\n* :ref:`undergraduate_courses`')
+        rstfile.write('\n* :ref:`graduate_courses`')
+
+        rstfile.write('\n')
+        rstfile.write('\n.. _undergraduate_courses:')
+        rstfile.write('\n')
+        rstfile.write('\nUndergraduate Courses')
+        rstfile.write('\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
 
         #iterates through each entry in the spreadsheet
         for line in dict:
             courses += 1
+	    if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
+                firstGraduateCourse = False
+                
+                rstfile.write('\n.. _graduate_courses:')
+                rstfile.write('\n')
+                rstfile.write('\nGraduate Courses')
+                rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
 
             if currentCourseNumber == line['CATALOG NUMBER']:
                 newCourse = False
@@ -234,16 +265,26 @@ def main(csv_file):
                 
                 #prints the title of the course and sets up the table
 		if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
-                    title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + ': ' + parse_title(line['CATALOG NUMBER']))
+                    #title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + ': ' + parse_title(line['CATALOG NUMBER']))
+                    #rstfile.write(title)
+                    title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
                     rstfile.write(title)
-                    rstfile.write('\n' + '~' * (len(title) + 1))
+                    rstfile.write('\n' + '-' * (len(title) + 1) + '\n')
                     rstfile.write('\n.. csv-table::')
                     rstfile.write('\n    :header: "Section", "Topic", "Instructor", "Time", "Day(s)", "Campus"')
    	            rstfile.write('\n    :widths: 10, 100, 75, 75, 30, 50\n\n')
                 else:
-                    title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + ': ' + parse_title(line['CATALOG NUMBER']))
-                    rstfile.write(title)
-                    rstfile.write('\n' + '~' *(len(title) + 1) +'\n')
+                    #title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + ': ' + parse_title(line['CATALOG NUMBER']))
+                    #rstfile.write(title)
+                    if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
+                        title = '\n:doc:`comp314-315`\n'
+                        rstfile.write(title)
+                    	rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
+                    else:
+                        title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
+                    	rstfile.write(title)
+                    	rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
+                   
                     rstfile.write('\n.. csv-table::')
                     rstfile.write('\n    :header: "Section", "Instructor", "Time", "Day(s)", "Campus"')
    	            rstfile.write('\n    :widths: 10, 175, 75, 30, 50\n\n')
@@ -281,22 +322,12 @@ def main(csv_file):
             #prints the campus
             rstfile.write(parse_campus(line['CLASS LOCATION'].strip()) + '\n')
                         
-            #if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
-             #   rstfile.write('\nCourse Description: ' +
-              #         ':doc:`comp314-315`')
-            #else:
-             #   rstfile.write('\nCourse Description: ' +
-              #         ':doc:`comp'
-               #        + line['CATALOG NUMBER'].strip() + '`')
-                
-            #rstfile.write('\n')
-            #rstfile.write('\n')
 
         print ('RSTFILE COMPLETE')
         print (str(courses) + ' courses added.')
 
 
-main(raw_input("CSV File: "))
+main(raw_input("CSV File: "), raw_input("Semester: "))
 
 
         
