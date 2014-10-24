@@ -1,0 +1,75 @@
+SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,INSTR STATUS,ENROLL CAP,CLASS LOCATION,FACILITY,FACILITY TYPE,SESSION,CLASS MEETING PATTERN,START TIME,END TIME,COMBINED WITH,DISPLAYED SECTION NOTES,COMMENTS
+COMP,125,1,,"Honig,William",TT,30,LSC,"CC 105
+",LAB,1,TTr,1:00:00 PM,2:15:00 PM,,,
+COMP,125,2,,"Naiman,Channah",PT,30,LSC,CC 105,LAB,1,Tr,4:15:00 PM,6:45:00 PM,,,
+COMP,150,1,,"Tuckey,Curtis",PT,30,LSC,CC 103,LAB,1,MW,2:45:00 PM,4:00:00 PM,,,
+COMP,150,2,,"Ramakrishnan,Rathi",PT,30,LSC,"CC 105
+",LAB,1,TTr,11:30:00 AM,12:45:00 PM,,,Rathi
+COMP,150,3,,"Romer,Zachary",PT,30,LSC,DU 235,LAB,1,TTr,2:30:00 PM,3:45:00 PM,,,Romer
+COMP,163,1,,"Greenberg,Ronald I",TT,30,LSC,CC 114,EC,1,MWF,11:30:00 AM,12:20:00 PM,,,
+COMP,163,2,,"Conant,Gabriel",PT,30,LSC,CC 114,EC,1,MWF,11:30:00 AM,12:20:00 PM,,,
+COMP,170,1,,"Yacobellis,Robert",NTT,30,LSC,"CC 103
+",LAB,1,TTr,10:00:00 AM,11:45:00 AM,,,
+COMP,170,2,,"Harrington,Andrew N",TT,30,LSC,"CC 103
+",LAB,1,TTr,12:30:00 PM,2:15:00 PM,,,
+COMP,170,3,,"Weisert,Conrad",PT,29,WTC,LT 0410,LAB,1,M,6:00:00 PM,9:30:00 PM,,Restricted to Quinlan School of Business students,
+COMP,170,4,,"Yacobellis,Robert",NTT,24,LSC,IC-111,LAB,1,TTr,2:30:00 PM,4:05:00 PM,,,
+COMP,250,01W,,"Schwab,Roxanne",PT,18,LSC,CC 105,LAB,1,MW,2:45:00 PM,4:00:00 PM,,,
+COMP,250,02W,,"Schwab,Roxanne",PT,18,LSC,,LAB,1,M,4:15:00 PM,6:45:00 PM,,,
+COMP,251,1,,"Bevente, Guy",PT,30,LSC,CUNEO 218,EC,1,W,7:00:00 PM,9:30:00 PM,,,
+COMP,264,1,,"Greenberg,Ronald I",TT,45,LSC,CC 103,LAB,1,MWF,10:25:00 AM,11:15:00 AM,,,
+COMP,271,1,,"Saenz,Maria del Carmen",PT,25,LSC,CC 103,LAB,1,TTr,2:30:00 PM,4:05:00 PM,,,María Sáenz
+COMP,271,2,,"Kaylor,Joseph P",PT,25,LSC,"CC 105
+",LAB,1,W,"06:00:00 PM
+",9:30:00 PM,,,Matt Bone wants to teach only once a year -> Joe Kaylor
+COMP,300,1,,"Naiman,Channah",PT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,488-002,,
+COMP,305,1,,"Dordal,Peter L",TT,30,WTC,LT 0410,LAB,1,T,4:15:00 PM,6:45:00 PM,488-003,,
+COMP,312,1,,"Butcher,Matthew",PT,30,ONLINE,,,1,Tr,4:15:00 PM,6:45:00 PM,412,,
+COMP,313,1,,"Yacobellis,Robert",NTT,35,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,413,,
+COMP,317,1,,"Galatzer-Levy,Benjamin",PT,20,LSC,,EC,1,M,7:00:00 PM,9:30:00 PM,,,Ben Galatzer
+COMP,317,2,,"Galatzer-Levy,Benjamin",PT,15,ONLINE,,,1,,,,,,Ben Galatzer
+COMP,330,1,,"Honig,William",TT,30,WTC,,LAB,1,T,4:15:00 PM,6:45:00 PM,474,,
+COMP,340,1,,"Yarrish,Thomas",PT,30,WTC,,LAB,1,W,7:00:00 PM,9:30:00 PM,488-004,,
+COMP,348,1,,"Schmitz,Corby",PT,30,WTC,,EC,1,F,5:30:00 PM,8:00:00 PM,448-001,,
+COMP,348,2,,"Schmitz,Corby",PT,25,ONLINE,,,1,,,,448-002,,
+COMP,353,1,,"Sekharan,Chandra N",TT,30,WTC,,EC,1,M,4:15:00 PM,6:45:00 PM,453,,Chandra
+COMP,372,1,,"Laufer,Konstantin",TT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,471,,
+COMP,373,1,,"Zewdie,Berhane",PT,30,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,473,,
+COMP,383,1,,"Putonti,Catherine",TT,25,LSC,non-lab,EC,1,W,4:35:00 PM,7:55:00 PM,488-001,,"LSB 212, 312, or 412"
+COMP,388,2,Human-Computer Interface Design,"Albert,Mark V",TT,35,WTC,,EC,1,W,7:00:00 PM,9:30:00 PM,441,,
+"COMP
+",388,4,Topics in Computer Science,"Harrington,Andrew N",TT,30,WTC,,"LAB
+",8W1,M,5:30:00 PM,9:30:00 PM,,Foundations of Comp Sci I; restricted to Graduate School students; first eight-week session,
+"COMP
+",388,4,Topics in Computer Science,"Harrington,Andrew N",TT,30,WTC,,"LAB
+",8W1,W,4:30:00 PM,6:45:00 PM,,Foundations of Comp Sci I; restricted to Graduate School students; first eight-week session,
+"COMP
+",388,5,Topics in Computer Science,"Dordal,Peter L",TT,30,WTC,,"LAB
+",8W2,M,5:30:00 PM,9:30:00 PM,,Foundations of Comp Sci II; restricted to Graduate School students; second eight-week session,
+"COMP
+",388,5,Topics in Computer Science,"Dordal,Peter L",TT,30,WTC,,"LAB
+",8W2,W,4:30:00 PM,6:45:00 PM,,Foundations of Comp Sci II; restricted to Graduate School students; second eight-week session,
+COMP,388,6,IT Project Management,"Weisert,Conrad",PT,30,WTC,,EC,1,F,4:15:00 PM,6:45:00 PM,477-001,,
+COMP,388,7,Advanced Experimental Computing: Pervasive Systems,Laufer + Thiruvathukal,TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-007,department consent required; var credit 1 to 6,
+COMP,388,8,Advanced Experimental Computing: Pervasive Health Computing,"Albert,Mark V",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-008,department consent required; var credit 1 to 6,
+COMP,388,9,Advanced Experimental Computing: Pervasive Physical Computing,"Honig,William",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-009,department consent required; var credit 1 to 6,
+COMP,412,1,,"Butcher,Matthew",PT,30,ONLINE,,,1,Tr,4:15:00 PM,6:45:00 PM,312,,
+COMP,413,1,,"Yacobellis,Robert",NTT,35,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,313,,
+COMP,417,1,,"Dordal,Peter L",TT,20,WTC,,EC,1,Tr,7:00:00 PM,9:30:00 PM,,,
+COMP,417,2,,"Dordal,Peter L",TT,15,ONLINE,,,1,,,,,,
+COMP,441,1,,"Albert,Mark V",TT,35,WTC,,EC,1,W,7:00:00 PM,9:30:00 PM,388-002,,
+COMP,448,1,,"Schmitz,Corby",PT,30,WTC,,EC,1,F,5:30:00 PM,8:00:00 PM,348-001,,
+COMP,448,2,,"Schmitz,Corby",PT,25,ONLINE,,,1,,,,348-002,,
+COMP,453,1,,"Sekharan,Chandra N",TT,30,WTC,,EC,1,M,4:15:00 PM,6:45:00 PM,353,,Chandra
+COMP,460,1,,"Sekharan,Chandra N",TT,30,WTC,,EC,1,Tr,6:00:00 PM,8:30:00 PM,,,
+COMP,471,1,,"Laufer,Konstantin",TT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,372,,
+COMP,473,1,,"Zewdie,Berhane",PT,30,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,373,,
+COMP,474,1,,"Honig,William",TT,30,WTC,,LAB,1,T,4:15:00 PM,6:45:00 PM,330,,
+COMP,477,1,IT Project Management,"Weisert,Conrad",PT,30,WTC,,EC,1,F,4:15:00 PM,6:45:00 PM,388-006,,
+COMP,488,1,Computational Biology,"Putonti,Catherine",TT,25,LSC,non-lab,EC,1,W,4:35:00 PM,7:55:00 PM,383,department consent required,"LSB 212, 312, or 412"
+COMP,488,2,Data Warehousing and Data Mining,"Naiman,Channah",PT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,300,,
+COMP,488,3,Database Administration,"Dordal,Peter L",TT,30,WTC,LT 0410,LAB,1,T,4:15:00 PM,6:45:00 PM,305-001,,
+COMP,488,4,Comp Forensics Investigations,"Yarrish,Thomas",PT,30,WTC,,LAB,1,W,7:00:00 PM,9:30:00 PM,340-001,,
+COMP,488,7,Advanced Experimental Computing: Pervasive Systems,Laufer + Thiruvathukal,TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,388-007,department consent required; var credit 1 to 6,
+COMP,488,8,Advanced Experimental Computing: Pervasive Health Computing,"Albert,Mark V",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-008,department consent required; var credit 1 to 6,
+COMP,488,9,Advanced Experimental Computing: Pervasive Physical Computing,"Honig,William",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,388-009,department consent required; var credit 1 to 6,

@@ -207,25 +207,60 @@ def parse_note(note):
         return None
     
 # Reads the spreadsheet and saves rst file in RSTFILE.txt
-def main(csv_file):
+def main(csv_file, semester):
     
     with open(csv_file, 'r') as f:
-        rstfile = open('RSTFILE.txt', "w")
+        rstfile = open('list_schedule.rst', "w")
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
         courses = 0
+	newCourse = True
+        firstGraduateCourse = True
+        currentCourseNumber = '0'
+
+	rstfile.write(semester + ' - Schedule\n')
+        rstfile.write('================================\n')
+        rstfile.write('\n')
+        rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
+        rstfile.write('\n')
+        rstfile.write('For classroom locations and open/full status, see `LOCUS <http://www.luc.edu/locus>`_.\n')
+        rstfile.write('\n')
+        rstfile.write('Note: While we update this page regularly, please check `LOCUS <http://www.luc.edu/locus>`_ ' 
+			+ 'for the most recent information.\n')
+        rstfile.write('\n')
+        rstfile.write('**In case of conflict, information on LOCUS should be considered authoritative.**\n')
+        rstfile.write('\n')
+
+        rstfile.write('QuickLinks\n')
+        rstfile.write('~~~~~~~~~~~~~\n')
+        rstfile.write('Table View') #TODO Fill in
+        rstfile.write('\n* :ref:`undergraduate_courses`')
+        rstfile.write('\n* :ref:`graduate_courses`')
+
+        rstfile.write('\n')
+        rstfile.write('\n.. _undergraduate_courses:')
+        rstfile.write('\n')
+        rstfile.write('\nUndergraduate Courses')
+        rstfile.write('\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
+
         #iterates through each entry in the spreadsheet
         for line in dict:
             courses += 1
-
+	    if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
+                firstGraduateCourse = False
+                
+                rstfile.write('\n.. _graduate_courses:')
+                rstfile.write('\n')
+                rstfile.write('\nGraduate Courses')
+                rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
             #prints the title of the course
             if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
-                title = ('COMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
+                title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
                          + ': ' + line['COURSE TITLE'])
                 rstfile.write(title)
                 rstfile.write('\n' + '~' * (len(title) + 1))
             else:
-                title = ('COMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
+                title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
                          + ': ' + parse_title(line['CATALOG NUMBER']))
                 rstfile.write(title)
                 rstfile.write('\n' + '~' *(len(title) + 1))
@@ -237,7 +272,6 @@ def main(csv_file):
                 rstfile.write('\n')
                 rstfile.write('\n' + '**' +  session + '**')
 
-            #if lab
             
             #prints the instructor
             rstfile.write('\n')
@@ -279,13 +313,12 @@ def main(csv_file):
                        + line['CATALOG NUMBER'].strip() + '`')
                 
             rstfile.write('\n')
-            rstfile.write('\n')
 
         print ('RSTFILE COMPLETE')
         print (str(courses) + ' courses added.')
 
 
-main(raw_input("CSV File: "))
+main(raw_input("CSV File: "), raw_input("Semester: "))
 
 
         

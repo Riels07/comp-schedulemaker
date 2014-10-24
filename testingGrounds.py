@@ -211,7 +211,7 @@ def parse_note(note):
 def main(csv_file, semester):
     
     with open(csv_file, 'r') as f:
-        rstfile = open('RSTFILEtest.txt', "w")
+        rstfile = open('table_schedule.rst', "w")
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
         courses = 0
@@ -234,6 +234,7 @@ def main(csv_file, semester):
 
         rstfile.write('QuickLinks\n')
         rstfile.write('~~~~~~~~~~~~~\n')
+        rstfile.write('List View') #TODO Fill in
         rstfile.write('\n* :ref:`undergraduate_courses`')
         rstfile.write('\n* :ref:`graduate_courses`')
 
