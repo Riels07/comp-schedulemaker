@@ -220,7 +220,7 @@ def parse_note(note):
 def printMobile(csv_file, semester):
     
     with open(csv_file, 'r') as f:
-        sem = semester.split(' ')
+        sem = semester.lower().split(' ')
         rstfile = open(sem[0] + sem[1] + 'mobile.inc', "w")
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
@@ -327,7 +327,7 @@ def printMobile(csv_file, semester):
 def printDesktop(csv_file, semester):
     
     with open(csv_file, 'r') as f:
-        sem = semester.split(' ')
+        sem = semester.lower().split(' ')
         rstfile = open(sem[0] + sem[1] + 'desktop.inc', "w")
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
