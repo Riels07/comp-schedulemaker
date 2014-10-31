@@ -1,75 +1,93 @@
-SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,INSTR STATUS,ENROLL CAP,CLASS LOCATION,FACILITY,FACILITY TYPE,SESSION,CLASS MEETING PATTERN,START TIME,END TIME,COMBINED WITH,DISPLAYED SECTION NOTES,COMMENTS
-COMP,125,1,,"Honig,William",TT,30,LSC,"CC 105
-",LAB,1,TTr,1:00:00 PM,2:15:00 PM,,,
-COMP,125,2,,"Naiman,Channah",PT,30,LSC,CC 105,LAB,1,Tr,4:15:00 PM,6:45:00 PM,,,
-COMP,150,1,,"Tuckey,Curtis",PT,30,LSC,CC 103,LAB,1,MW,2:45:00 PM,4:00:00 PM,,,
-COMP,150,2,,"Ramakrishnan,Rathi",PT,30,LSC,"CC 105
-",LAB,1,TTr,11:30:00 AM,12:45:00 PM,,,Rathi
-COMP,150,3,,"Romer,Zachary",PT,30,LSC,DU 235,LAB,1,TTr,2:30:00 PM,3:45:00 PM,,,Romer
-COMP,163,1,,"Greenberg,Ronald I",TT,30,LSC,CC 114,EC,1,MWF,11:30:00 AM,12:20:00 PM,,,
-COMP,163,2,,"Conant,Gabriel",PT,30,LSC,CC 114,EC,1,MWF,11:30:00 AM,12:20:00 PM,,,
-COMP,170,1,,"Yacobellis,Robert",NTT,30,LSC,"CC 103
-",LAB,1,TTr,10:00:00 AM,11:45:00 AM,,,
-COMP,170,2,,"Harrington,Andrew N",TT,30,LSC,"CC 103
-",LAB,1,TTr,12:30:00 PM,2:15:00 PM,,,
-COMP,170,3,,"Weisert,Conrad",PT,29,WTC,LT 0410,LAB,1,M,6:00:00 PM,9:30:00 PM,,Restricted to Quinlan School of Business students,
-COMP,170,4,,"Yacobellis,Robert",NTT,24,LSC,IC-111,LAB,1,TTr,2:30:00 PM,4:05:00 PM,,,
-COMP,250,01W,,"Schwab,Roxanne",PT,18,LSC,CC 105,LAB,1,MW,2:45:00 PM,4:00:00 PM,,,
-COMP,250,02W,,"Schwab,Roxanne",PT,18,LSC,,LAB,1,M,4:15:00 PM,6:45:00 PM,,,
-COMP,251,1,,"Bevente, Guy",PT,30,LSC,CUNEO 218,EC,1,W,7:00:00 PM,9:30:00 PM,,,
-COMP,264,1,,"Greenberg,Ronald I",TT,45,LSC,CC 103,LAB,1,MWF,10:25:00 AM,11:15:00 AM,,,
-COMP,271,1,,"Saenz,Maria del Carmen",PT,25,LSC,CC 103,LAB,1,TTr,2:30:00 PM,4:05:00 PM,,,María Sáenz
-COMP,271,2,,"Kaylor,Joseph P",PT,25,LSC,"CC 105
-",LAB,1,W,"06:00:00 PM
-",9:30:00 PM,,,Matt Bone wants to teach only once a year -> Joe Kaylor
-COMP,300,1,,"Naiman,Channah",PT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,488-002,,
-COMP,305,1,,"Dordal,Peter L",TT,30,WTC,LT 0410,LAB,1,T,4:15:00 PM,6:45:00 PM,488-003,,
-COMP,312,1,,"Butcher,Matthew",PT,30,ONLINE,,,1,Tr,4:15:00 PM,6:45:00 PM,412,,
-COMP,313,1,,"Yacobellis,Robert",NTT,35,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,413,,
-COMP,317,1,,"Galatzer-Levy,Benjamin",PT,20,LSC,,EC,1,M,7:00:00 PM,9:30:00 PM,,,Ben Galatzer
-COMP,317,2,,"Galatzer-Levy,Benjamin",PT,15,ONLINE,,,1,,,,,,Ben Galatzer
-COMP,330,1,,"Honig,William",TT,30,WTC,,LAB,1,T,4:15:00 PM,6:45:00 PM,474,,
-COMP,340,1,,"Yarrish,Thomas",PT,30,WTC,,LAB,1,W,7:00:00 PM,9:30:00 PM,488-004,,
-COMP,348,1,,"Schmitz,Corby",PT,30,WTC,,EC,1,F,5:30:00 PM,8:00:00 PM,448-001,,
-COMP,348,2,,"Schmitz,Corby",PT,25,ONLINE,,,1,,,,448-002,,
-COMP,353,1,,"Sekharan,Chandra N",TT,30,WTC,,EC,1,M,4:15:00 PM,6:45:00 PM,453,,Chandra
-COMP,372,1,,"Laufer,Konstantin",TT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,471,,
-COMP,373,1,,"Zewdie,Berhane",PT,30,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,473,,
-COMP,383,1,,"Putonti,Catherine",TT,25,LSC,non-lab,EC,1,W,4:35:00 PM,7:55:00 PM,488-001,,"LSB 212, 312, or 412"
-COMP,388,2,Human-Computer Interface Design,"Albert,Mark V",TT,35,WTC,,EC,1,W,7:00:00 PM,9:30:00 PM,441,,
-"COMP
-",388,4,Topics in Computer Science,"Harrington,Andrew N",TT,30,WTC,,"LAB
-",8W1,M,5:30:00 PM,9:30:00 PM,,Foundations of Comp Sci I; restricted to Graduate School students; first eight-week session,
-"COMP
-",388,4,Topics in Computer Science,"Harrington,Andrew N",TT,30,WTC,,"LAB
-",8W1,W,4:30:00 PM,6:45:00 PM,,Foundations of Comp Sci I; restricted to Graduate School students; first eight-week session,
-"COMP
-",388,5,Topics in Computer Science,"Dordal,Peter L",TT,30,WTC,,"LAB
-",8W2,M,5:30:00 PM,9:30:00 PM,,Foundations of Comp Sci II; restricted to Graduate School students; second eight-week session,
-"COMP
-",388,5,Topics in Computer Science,"Dordal,Peter L",TT,30,WTC,,"LAB
-",8W2,W,4:30:00 PM,6:45:00 PM,,Foundations of Comp Sci II; restricted to Graduate School students; second eight-week session,
-COMP,388,6,IT Project Management,"Weisert,Conrad",PT,30,WTC,,EC,1,F,4:15:00 PM,6:45:00 PM,477-001,,
-COMP,388,7,Advanced Experimental Computing: Pervasive Systems,Laufer + Thiruvathukal,TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-007,department consent required; var credit 1 to 6,
-COMP,388,8,Advanced Experimental Computing: Pervasive Health Computing,"Albert,Mark V",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-008,department consent required; var credit 1 to 6,
-COMP,388,9,Advanced Experimental Computing: Pervasive Physical Computing,"Honig,William",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-009,department consent required; var credit 1 to 6,
-COMP,412,1,,"Butcher,Matthew",PT,30,ONLINE,,,1,Tr,4:15:00 PM,6:45:00 PM,312,,
-COMP,413,1,,"Yacobellis,Robert",NTT,35,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,313,,
-COMP,417,1,,"Dordal,Peter L",TT,20,WTC,,EC,1,Tr,7:00:00 PM,9:30:00 PM,,,
-COMP,417,2,,"Dordal,Peter L",TT,15,ONLINE,,,1,,,,,,
-COMP,441,1,,"Albert,Mark V",TT,35,WTC,,EC,1,W,7:00:00 PM,9:30:00 PM,388-002,,
-COMP,448,1,,"Schmitz,Corby",PT,30,WTC,,EC,1,F,5:30:00 PM,8:00:00 PM,348-001,,
-COMP,448,2,,"Schmitz,Corby",PT,25,ONLINE,,,1,,,,348-002,,
-COMP,453,1,,"Sekharan,Chandra N",TT,30,WTC,,EC,1,M,4:15:00 PM,6:45:00 PM,353,,Chandra
-COMP,460,1,,"Sekharan,Chandra N",TT,30,WTC,,EC,1,Tr,6:00:00 PM,8:30:00 PM,,,
-COMP,471,1,,"Laufer,Konstantin",TT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,372,,
-COMP,473,1,,"Zewdie,Berhane",PT,30,WTC,,EC,1,T,7:00:00 PM,9:30:00 PM,373,,
-COMP,474,1,,"Honig,William",TT,30,WTC,,LAB,1,T,4:15:00 PM,6:45:00 PM,330,,
-COMP,477,1,IT Project Management,"Weisert,Conrad",PT,30,WTC,,EC,1,F,4:15:00 PM,6:45:00 PM,388-006,,
-COMP,488,1,Computational Biology,"Putonti,Catherine",TT,25,LSC,non-lab,EC,1,W,4:35:00 PM,7:55:00 PM,383,department consent required,"LSB 212, 312, or 412"
-COMP,488,2,Data Warehousing and Data Mining,"Naiman,Channah",PT,30,WTC,,EC,1,W,4:15:00 PM,6:45:00 PM,300,,
-COMP,488,3,Database Administration,"Dordal,Peter L",TT,30,WTC,LT 0410,LAB,1,T,4:15:00 PM,6:45:00 PM,305-001,,
-COMP,488,4,Comp Forensics Investigations,"Yarrish,Thomas",PT,30,WTC,,LAB,1,W,7:00:00 PM,9:30:00 PM,340-001,,
-COMP,488,7,Advanced Experimental Computing: Pervasive Systems,Laufer + Thiruvathukal,TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,388-007,department consent required; var credit 1 to 6,
-COMP,488,8,Advanced Experimental Computing: Pervasive Health Computing,"Albert,Mark V",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,488-008,department consent required; var credit 1 to 6,
-COMP,488,9,Advanced Experimental Computing: Pervasive Physical Computing,"Honig,William",TT,15,ONLINE,,,1,F,10:00:00 AM,12:20:00 PM,388-009,department consent required; var credit 1 to 6,
+SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,INSTR STATUS,"
+
+ENROLL
+CAP",ROOM CAP,CLASS LOCATION,FACILITY,FACILITY TYPE,SESSION,CLASS MEETING PATTERN,START TIME,END TIME,COMBINED WITH,DISPLAYED SECTION NOTES,COMMENTS
+COMP,125,1,Visual Information Processing,"Naiman,Channah",NTT,30,35,LSC,CC 105,,,TTr,1:00:00 PM,2:15:00 PM,,,
+COMP,125,2,Visual Information Processing,"Naiman,Channah",NTT,30,35,LSC,CC 105,,,Tr,4:15:00 PM,6:45:00 PM,,,
+COMP,150,1,Introduction to Computing,"Pokharel,Jiwan",PT,30,35,LSC,CC 105,,,TTr,2:30:00 PM,3:45:00 PM,,,
+COMP,150,2,Introduction to Computing,"Pokharel,Jiwan",PT,30,35,LSC,CC 105,,,TTr,11:30:00 AM,12:45:00 PM,,,move pending to MW 2:45-4
+COMP,150,3,Introduction to Computing,"Romer,Zachary",PT,30,35,LSC,CC 105,,,MW,12:10:00 PM,1:25:00 PM,,,Jiwan if still around - need to hire as PT fac - otherwise Zach
+COMP,163,1,Discrete Structures,"Tuckey,Curtis D",PT,30,40,LSC,,,,MW,7:00:00 PM,8:15:00 PM,,,
+COMP,163,2,Discrete Structures,"Tuckey,Curtis D",PT,30,40,LSC,,,,MW,4:15:00 PM,5:30:00 PM,,,
+COMP,170,1,Introduction to Object-Oriented Programming,"Yacobellis,Robert",NTT,25,35,LSC,CC 103,,,TTr,10:00:00 AM,11:15:00 AM,,,
+COMP,170,2,Introduction to Object-Oriented Programming,"Harrington,Andrew N",TT,25,35,LSC,CC 103,,,TTr,1:00:00 PM,2:15:00 PM,,,
+COMP,170,3,Introduction to Object-Oriented Programming,"Naiman,Channah",NTT,25,35,LSC,CC 105,,,T,4:15:00 PM,6:45:00 PM,,,
+COMP,170,4,Introduction to Object-Oriented Programming,"Thiruvathukal,George",TT,25,35,LSC,CC 105,,,MWF,10:25:00 AM,11:15:00 AM,,,
+COMP,170,01L,Introduction to Object-Oriented Programming,"Yacobellis,Robert",NTT,25,35,LSC,CC 103,,,TTr,11:30:00 AM,11:55:00 AM,,,
+COMP,170,02L,Introduction to Object-Oriented Programming,"Harrington,Andrew N",TT,25,35,LSC,CC 103,,,TTr,12:20:00 PM,12:45:00 PM,,,
+COMP,170,03L,Introduction to Object-Oriented Programming,"Naiman,Channah",NTT,25,35,LSC,CC 105,,,T,7:00:00 PM,7:45:00 PM,,,
+COMP,170,04L,Introduction to Object-Oriented Programming,"Thiruvathukal,George",TT,25,35,LSC,CC 105,,,MW,11:30:00 AM,11:55:00 AM,,,
+HONR,204,,Science and Society,"Albert,Mark",TT,,,LSC,,,,TTr,10:00:00 AM,11:15:00 AM,,,Claudio Katz will enter
+COMP,250,01W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",PT,18,25,LSC,CC 103,,,MW,2:45:00 PM,4:00:00 PM,,,
+COMP,250,02W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",PT,18,25,LSC,CC 103,,,M,7:00:00 PM,9:30:00 PM,,,
+COMP,251,1,Introduction to Database Systems,"Bevente,Guy",PT,30,,LSC,,,,M,7:00:00 PM,9:30:00 PM,,,
+COMP,264,1,Introduction to Computer Systems,"Greenberg,Ronald I",TT,45,,LSC,CC 103,,,Tr,4:15:00 PM,6:45:00 PM,,,
+COMP,271,1,Data Structures: Algorithms and Applications,"Saenz,Maria",PT,25,35,LSC,CC 103,,,TTr,7:00:00 PM,8:15:00 PM,,,
+COMP,271,2,Data Structures: Algorithms and Applications,"Putonti,Catherine",TT,25,35,LSC,CC 105,,,W,4:15:00 PM,6:45:00 PM,,,
+COMP,271,01L,Data Structures: Algorithms and Applications,"Saenz,Maria",PT,25,35,LSC,CC 103,,,TTr,8:30:00 PM,8:55:00 PM,,,
+COMP,271,02L,Data Structures: Algorithms and Applications,"Putonti,Catherine",TT,25,35,LSC,CC 105,,,W,7:00:00 PM,7:50:00 PM,,,
+COMP,300,1,Data Warehousing and Data Mining,"Naiman,Channah",NTT,35,,WTC,,,,W,4:15:00 PM,6:45:00 PM,488-001,,
+COMP,305,1,Database Administration,"Dordal,Peter L",TT,35,,WTC,,LAB,,T,4:15:00 PM,6:45:00 PM,488-002,,
+COMP,312,01E,Open Source Computing,"Kalwani,Sharan",TT,35,,WTC,,LAB,,W,7:00:00 PM,9:30:00 PM,412-001,,
+COMP,313,1,Intermediate Object-Oriented Development,"Yacobellis,Robert",NTT,40,,LSC,,,,TTr,2:30:00 PM,3:45:00 PM,,,
+COMP,317,1,"Social, Legal, and Ethical Issues in Computing","Butcher,Matthew Paul",PT,35,,ONLN,,,,,,,,,
+COMP,330,1,Software Engineering,"Honig,William",TT,35,,LSC,,,,T,4:15:00 PM,6:45:00 PM,,,
+COMP,340,1,Computer Forensics,"Yarrish,Thomas",PT,35,,WTC,,LAB,,W,7:00:00 PM,9:30:00 PM,488-003,,
+COMP,348,1,Network Security,"Schmitz,Corby",PT,25,40,WTC,,,,F,5:30:00 PM,8:00:00 PM,448-001,,
+COMP,348,2,Network Security,"Schmitz,Corby",PT,25,,ONLN,,,,,,,348-002,,
+COMP,353,1,Database Programming,"Sekharan,Chandra N",TT,35,,LSC,,,,M,4:15:00 PM,6:45:00 PM,,,
+COMP,366,1,Microcomputer Des & Interfaces,"Honig,William",TT,30,,LSC,,LAB,,TTr,1:00:00 PM,2:15:00 PM,450-001,,need special electronics lab
+COMP,372,1,Programming Languages,"Laufer,Konstantin",TT,35,,WTC,,,,W,4:15:00 PM,6:45:00 PM,471-001,,
+COMP,373,1,"Objects, Frameworks, and Patterns","Zewdie,Berhane",PT,35,,WTC,,,,T,7:00:00 PM,9:30:00 PM,473-001,,
+COMP,378,1,Intro Artificial Intelligence,"Weisert,Conrad",PT,35,,WTC,,,,M,7:00:00 PM,9:30:00 PM,484-001,,
+COMP,388,1,Human-Computer Interface Design,"Hayward,Nicholas",PT,35,,WTC,,,,Tr,7:00:00 PM,9:30:00 PM,441-001,,
+COMP,388,2,Advanced Algorithms & Complexity,"Sekharan,Chandra N",TT,35,,WTC,,,,T,4:15:00 PM,6:45:00 PM,460-001,prerequisite: COMP 363,
+COMP,388,3,IT Project Management,"Weisert,Conrad",PT,35,,WTC,,,,F,4:15:00 PM,6:45:00 PM,477-001,,
+COMP,388,4,Foundations of Comp Sci I,"Harrington,Andrew N",TT,30,,WTC,,LAB,8W1,M,5:30:00 PM,9:30:00 PM,,"Time and Days: Seven weeks from start of semester, ending before vacation week. Classes 5:30-9:30PM all Mondays except MLK Day, plus two Fridays labeled in this list: January 12, 16 (Friday), 23 (Friday), 26, February 2, 9, 16, 23; labs each of those weeks on Wednesday, 4:30-6:45PM, Jan 14 - Feb 25. ",Foundations of Comp Sci I; restricted to Graduate School students; first eight-week session
+COMP,388,5,Foundations of Comp Sci II,"Dordal,Peter L",TT,30,,WTC,,LAB,8W2,M,5:30:00 PM,9:30:00 PM,,"Time and Days: Eight weeks after vacation, including two meetings in finals week. Mondays 5:30-9:30PM March 9 through April 27, Wednesdays 4:30-6:45PM March 11 through April 29, excluding Easter Break: April 1.",Foundations of Comp Sci II; restricted to Graduate School students; second eight-week session
+COMP,388,6,Computational Neuroscience,"Albert,Mark",TT,35,,LSC,,,,Tr,4:15:00 PM,6:45:00 PM,488-006,,
+COMP,388,7,Advanced Bioinformatics Research,"Putonti,Catherine",TT,30,,ONLN,,,,,,,,,
+COMP,388,8,Research Methods in Comp Sci,"Albert,Mark",TT,30,,ONLN,,,,,,,,,1 credit hour
+COMP,391,01E,Internship in CS,"Greenberg,Ronald I",TT,20,,WTC,,,,,,,,,secondary instructor: Yacobellis
+COMP,398,01E,Independent Study,"Thiruvathukal,George",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
+COMP,398,02E,Independent Study,"Dordal,Peter L",TT,20,,WTC,,,,,,,,,
+COMP,398,03E,Independent Study,"Greenberg,Ronald I",TT,20,,WTC,,,,,,,,,
+COMP,398,04E,Independent Study,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,
+COMP,398,05E,Independent Study,"Honig,William",TT,20,,WTC,,,,,,,,,
+COMP,398,06E,Independent Study,"Putonti,Catherine",TT,20,,WTC,,,,,,,,,
+COMP,398,07E,Independent Study,"Sekharan,Chandra N",TT,20,,WTC,,,,,,,,,
+COMP,398,08E,Independent Study,"Yacobellis,Robert",NTT,20,,WTC,,,,,,,,,
+COMP,398,09E,Independent Study,"Albert,Mark",TT,10,,WTC,,,,,,,,,
+COMP,398,10E,Independent Study,"Naiman,Channah",NTT,10,,WTC,,,,,,,,,
+COMP,399,1,Computer Science Seminar,"Albert,Mark",TT,30,,LSC,,,,F,12:35:00 PM,1:25:00 PM,,,1 credit hour
+COMP,412,1,Open Source Computing,"Kalwani,Sharan",TT,35,,WTC,,LAB,,W,7:00:00 PM,9:30:00 PM,312-001,,
+COMP,413,1,Intermediate Object-Oriented Development,"Yacobellis,Robert",NTT,40,,WTC,,,,T,7:00:00 PM,9:30:00 PM,,,
+COMP,417,1,Social and Ethical Issues in Computing,"Dordal,Peter L",TT,35,,WTC,,,,Tr,4:15:00 PM,6:45:00 PM,,,
+COMP,441,1,Human-Computer Interface Design,"Hayward,Nicholas",PT,35,,WTC,,,,Tr,7:00:00 PM,9:30:00 PM,388-001,,
+COMP,448,1,Network Security,"Schmitz,Corby",PT,25,40,WTC,,,,F,5:30:00 PM,8:00:00 PM,348-001,,
+COMP,448,2,Network Security,"Schmitz,Corby",PT,25,,ONLN,,,,,,,348-002,,
+COMP,450,1,Microprogramming & Microprocessing,"Honig,William",TT,30,,LSC,,LAB,,TTr,1:00:00 PM,2:15:00 PM,366-001,,need special electronics lab
+COMP,460,1,Algorithms & Complexity,"Sekharan,Chandra N",TT,35,,WTC,,,,T,4:15:00 PM,6:45:00 PM,388-002,,
+COMP,471,1,Thry of Programming Languages,"Laufer,Konstantin",TT,35,,WTC,,,,W,4:15:00 PM,6:45:00 PM,372-001,,
+COMP,473,1,Object-Oriented Programming,"Zewdie,Berhane",PT,35,,WTC,,,,T,7:00:00 PM,9:30:00 PM,373-001,,
+COMP,474,1,Software Engineering,"Honig,William",TT,35,,WTC,,,,Tr,4:15:00 PM,6:45:00 PM,,,
+COMP,477,1,IT Project Management,"Weisert,Conrad",PT,35,,WTC,,,,F,4:15:00 PM,6:45:00 PM,388-003,,
+COMP,484,1,Artificial Intelligence,"Weisert,Conrad",PT,35,,WTC,,,,M,7:00:00 PM,9:30:00 PM,378-001,,
+COMP,488,1,Data Warehousing and Data Mining,"Naiman,Channah",NTT,35,,WTC,,,,W,4:15:00 PM,6:45:00 PM,300-001,,
+COMP,488,2,Database Administration,"Dordal,Peter L",TT,35,,WTC,,LAB,,T,4:15:00 PM,6:45:00 PM,305-001,,
+COMP,488,3,Computer Forensics,"Yarrish,Thomas",PT,35,,WTC,,LAB,,W,7:00:00 PM,9:30:00 PM,340-001,,
+COMP,488,6,Computational Neuroscience,"Albert,Mark",TT,35,,LSC,,,,Tr,4:15:00 PM,6:45:00 PM,388-006,,
+COMP,488,7,Advanced Bioinformatics Research,"Putonti,Catherine",TT,30,,ONLN,,,,,,,,,
+COMP,490,1,Independent Project,"Thiruvathukal,George",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
+COMP,490,2,Independent Project,"Dordal,Peter L",TT,20,,WTC,,,,,,,,,
+COMP,490,3,Independent Project,"Greenberg,Ronald I",TT,20,,WTC,,,,,,,,,
+COMP,490,4,Independent Project,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,
+COMP,490,5,Independent Project,"Honig,William",TT,20,,WTC,,,,,,,,,
+COMP,490,6,Independent Project,"Putonti,Catherine",TT,20,,WTC,,,,,,,,,
+COMP,490,7,Independent Project,"Sekharan,Chandra N",TT,20,,WTC,,,,,,,,,
+COMP,490,8,Independent Project,"Yacobellis,Robert",NTT,20,,WTC,,,,,,,,,
+COMP,490,9,Independent Project,"Albert,Mark",TT,20,,WTC,,,,,,,,,
+COMP,490,10,Independent Project,"Naiman,Channah",NTT,20,,WTC,,,,,,,,,
+COMP,499,1,Internship,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
+COMP,499,2,Internship,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
+COMP,605,1,Master of Science Study,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
