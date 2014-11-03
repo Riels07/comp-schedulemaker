@@ -113,6 +113,8 @@ def parse_title(id):
 # decodes the tokens to the day names: MWF = Monday Wednesday Friday etc
 def parse_days(days):
     decoded = []
+    if days == 'See Note':
+       return ['See Note']
     if "M" in days:
         decoded.append('Monday')
     if "T" in days:
@@ -182,9 +184,10 @@ def parse_facility(facility):
     else:
         return data[0] + ' ' + data[1]
     
-    
 # gets the start and end time of the course and returns in form start-end
 def parse_time(start, end):
+    if start == 'See Note':
+        return start
     if start == '' or end == '':
         return 'TBD'
     else:
@@ -215,7 +218,13 @@ def parse_note(note):
         return note
     else:
         return None
-    
+
+def writeLine(rstfile, string):
+    rstfile.write(string + '\n')
+
+def skipLine(rstFile):
+    rstfile.write('\n')
+ 
 # Reads the spreadsheet and saves rst file in RSTFILE.txt
 def printMobile(csv_file, semester):
     
@@ -228,7 +237,9 @@ def printMobile(csv_file, semester):
 	newCourse = True
         firstGraduateCourse = True
         currentCourseNumber = '0'
-
+	writeLine(rstfile, 'test')
+	writeLine(rstfile, 'test')
+	writeLine(rstfile, 'test')
 	rstfile.write('Mobile Format - ' + semester + ' - Schedule\n')
         rstfile.write('==========================================================\n')
         rstfile.write('\n')
@@ -257,6 +268,9 @@ def printMobile(csv_file, semester):
         for line in dict:
 	    if line['SUBJECT'] == 'COMP':
                courses += 1
+               if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
+                   line['START TIME'] = 'See Note'
+                   line['CLASS MEETING PATTERN'] = 'See Note'
 	       if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
                 
@@ -365,6 +379,9 @@ def printDesktop(csv_file, semester):
         for line in dict:
             if line['SUBJECT'] == 'COMP':
                courses += 1
+               if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
+                   line['START TIME'] = 'See Note'
+                   line['CLASS MEETING PATTERN'] = 'See Note'
 	       if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
                 
@@ -441,13 +458,14 @@ def printDesktop(csv_file, semester):
                note = line['DISPLAYED SECTION NOTES']
                if note != '':
                   notes.append(note)
-                  rstfile.write('See [#]_ \n')
+                  rstfile.write('[#]_ \n')
                else: 
                   rstfile.write('N/A \n')
 
 
         print ('DESKTOP FORMAT COMPLETE')
         print (str(courses) + ' courses added.')
+
 
 def main(csv_file, semester):
    

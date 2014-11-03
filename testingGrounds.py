@@ -113,6 +113,8 @@ def parse_title(id):
 # decodes the tokens to the day names: MWF = Monday Wednesday Friday etc
 def parse_days(days):
     decoded = []
+    if days == 'See Note':
+       return ['See Note']
     if "M" in days:
         decoded.append('Monday')
     if "T" in days:
@@ -137,6 +139,15 @@ def parse_days(days):
 
 # decodes the instructor names putting them in order: "Smith,Adam" = Adam Smith
 def parse_instructor(instructor):
+    decoded = instructor.split(',')
+    if '' in decoded:
+        return ['TBD']
+    else:
+        decoded.reverse()
+        return decoded
+
+# decodes the instructor names putting them in order: "Smith,Adam" = Adam Smith
+def parse_instructor2(instructor):
     decoded = instructor.split(',')
     if '' in decoded:
         return ['TBD']
@@ -173,9 +184,10 @@ def parse_facility(facility):
     else:
         return data[0] + ' ' + data[1]
     
-    
 # gets the start and end time of the course and returns in form start-end
 def parse_time(start, end):
+    if start == 'See Note':
+        return start
     if start == '' or end == '':
         return 'TBD'
     else:
@@ -206,23 +218,29 @@ def parse_note(note):
         return note
     else:
         return None
-    
+
+def writeLine(rstfile, string):
+    rstfile.write(string + '\n')
+
+def skipLine(rstFile):
+    rstfile.write('\n')
+ 
 # Reads the spreadsheet and saves rst file in RSTFILE.txt
-def main(csv_file, semester):
+def printMobile(csv_file, semester):
     
     with open(csv_file, 'r') as f:
-        sem = semester.split(' ')
-        rstfile = open(sem[0] + sem[1] + 'desktop.inc', "w")
+        sem = semester.lower().split(' ')
+        rstfile = open(sem[0] + sem[1] + 'mobile.inc', "w")
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
-
         courses = 0
 	newCourse = True
-        firstGraduateCourse = True
+	firstGraduateCourse = True
         currentCourseNumber = '0'
-        notes = []
-
-	rstfile.write('Desktop Format - ' + semester + ' - Schedule\n')
-        rstfile.write('==================================================\n')
+	writeLine(rstfile, 'test')
+	writeLine(rstfile, 'test')
+	writeLine(rstfile, 'test')
+	rstfile.write('Mobile Format - ' + semester + ' - Schedule\n')
+        rstfile.write('==========================================================\n')
         rstfile.write('\n')
         rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
         rstfile.write('\n')
@@ -236,103 +254,219 @@ def main(csv_file, semester):
 
         rstfile.write('QuickLinks\n')
         rstfile.write('~~~~~~~~~~~~~\n')
-        rstfile.write('\n* :ref:`undergraduate_courses_table`')
-        rstfile.write('\n* :ref:`graduate_courses_table`')
+        rstfile.write('\n* :ref:`undergraduate_courses_list`')
+        rstfile.write('\n* :ref:`graduate_courses_list`')
 
         rstfile.write('\n')
-        rstfile.write('\n.. _undergraduate_courses_table:')
+        rstfile.write('\n.. _undergraduate_courses_list:')
         rstfile.write('\n')
         rstfile.write('\nUndergraduate Courses')
         rstfile.write('\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
 
         #iterates through each entry in the spreadsheet
         for line in dict:
-            if line['SUBJECT'] == 'COMP':
+            if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
+                line['START TIME'] = 'See Note'
+                line['CLASS MEETING PATTERN'] = 'See Note'
+	    if line['SUBJECT'] == 'COMP':
                courses += 1
 	       if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
                 
-                   rstfile.write('\n.. _graduate_courses_table:')
+                   rstfile.write('\n.. _graduate_courses_list:')
                    rstfile.write('\n')
                    rstfile.write('\nGraduate Courses')
                    rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
-
-               if currentCourseNumber == line['CATALOG NUMBER']:
-                   newCourse = False
-               else:
-                   newCourse = True
-                   currentCourseNumber = line['CATALOG NUMBER']
-                   if len(notes) > 0:
-                      rstfile.write('\n.. rubric:: Notes\n')
-                      for note in notes:
-                         rstfile.write('\n.. [#] ' + note)              
-                      notes = []
-                      rstfile.write('\n')
-
-	       if newCourse:
-                   newCourse = False
-                
-                   #prints the title of the course and sets up the table
-		   if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
-                       title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
-                       rstfile.write(title)
-                       rstfile.write('\n' + '-' * (len(title) + 1) + '\n')
-                       rstfile.write('\n.. csv-table::')
-                       rstfile.write('\n    :header: "Section", "Topic", "Instructor", "Time", "Day(s)", "Campus", "Note"')
-   	               rstfile.write('\n    :widths: 10, 100, 75, 75, 30, 50, 50\n\n')
-                   else:
-                       if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
-                           title = '\n:doc:`comp314-315`\n'
-                           rstfile.write(title)
-                    	   rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
-                       else:
-                           title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
-                    	   rstfile.write(title)
-                    	   rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
-                   
-                       rstfile.write('\n.. csv-table::')
-                       rstfile.write('\n    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"')
-   	               rstfile.write('\n    :widths: 10, 175, 75, 30, 50, 50\n\n')
-   
-               #prints the section number
-               rstfile.write('    ' + line['SECTION'].strip() + ', ')
-
+               #prints the title of the course
                if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
-                   rstfile.write(line['COURSE TITLE'].strip() + ', ')
-               
-                
+                   title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
+                            + ': ' + line['COURSE TITLE'])
+                   rstfile.write(title)
+                   rstfile.write('\n' + '~' * (len(title) + 1))
+               else:
+                   title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
+                         + ': ' + parse_title(line['CATALOG NUMBER']))
+                   rstfile.write(title)
+                   rstfile.write('\n' + '~' *(len(title) + 1))
 
-               #prints the instructor
 
-               for name in parse_instructor(line['INSTRUCTOR']):
-                   rstfile.write(name)
-               rstfile.write(', ')
+               #prints session if not for full semester
+               session = parse_session(line['SESSION'])
+               if not session == None:
+                   rstfile.write('\n')
+                   rstfile.write('\n' + '**' +  session + '**')
 
             
+               #prints the instructor
+               rstfile.write('\n')
+               rstfile.write('\nInstructor: ')
+               for name in parse_instructor(line['INSTRUCTOR']):
+                   rstfile.write(name.strip(' \t\n\r') + ' ')
+
                #prints the start - end time
-               rstfile.write(parse_time(line['START TIME'].strip(), line['END TIME'].strip()) + ', ')
+               rstfile.write('\n')
+               rstfile.write('\nTime: ' + parse_time(line['START TIME'].strip(), line['END TIME'].strip()))
+               rstfile.write('\n')
 
-               #prints the days of the week
-               if line['CLASS MEETING PATTERN'] == '':
-                   rstfile.write('TBD, ')
-               else:             
-                   rstfile.write(line['CLASS MEETING PATTERN'] + ', ')
-                
+               #prints the days of the week                
+               rstfile.write('\nDay(s): ')
+               for day in parse_days(line['CLASS MEETING PATTERN']):
+                   rstfile.write(day + ' ')
+               rstfile.write('\n')
+
                #prints the campus
-               rstfile.write(parse_campus(line['CLASS LOCATION'].strip()) + ', ')
+               rstfile.write('\nCampus: ' + parse_campus(line['CLASS LOCATION'].strip()))
+               rstfile.write('\n')
 
-	       #special case for COMP 388 - Foundations
-               note = line['DISPLAYED SECTION NOTES']
-               if note != '':
-                  notes.append(note)
-                  rstfile.write('See [#]_ \n')
-               else: 
-                  rstfile.write('N/A \n')
+               #prints the note if there is a note
+               note = parse_note(line['DISPLAYED SECTION NOTES'])
+               if not note == None:
+                   rstfile.write('\nNotes: ' + note)
+                   rstfile.write('\n')
+                                          
+               if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
+                   rstfile.write('\nCourse Description: ' +
+                          ':doc:`comp314-315`')
+               else:
+                   rstfile.write('\nCourse Description: ' +
+                          ':doc:`comp'
+                          + line['CATALOG NUMBER'].strip() + '`')
+                
+               rstfile.write('\n')
 
-
-        print ('DESKTOP FORMAT COMPLETE')
+        print ('MOBILE FORMAT COMPLETE')
         print (str(courses) + ' courses added.')
 
+def printDesktop(data, semester):
+
+    sem = semester.lower().split(' ')
+    rstfile = open(sem[0] + sem[1] + 'desktop.inc', "w")
+
+    courses = 0
+    newCourse = True
+    firstGraduateCourse = True
+    currentCourseNumber = '0'
+    notes = []
+
+    rstfile.write('Desktop Format - ' + semester + ' - Schedule\n')
+    rstfile.write('==================================================\n')
+    rstfile.write('\n')
+    rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
+    rstfile.write('\n')
+    rstfile.write('For classroom locations and open/full status, see `LOCUS <http://www.luc.edu/locus>`_.\n')
+    rstfile.write('\n')
+    rstfile.write('Note: While we update this page regularly, please check `LOCUS <http://www.luc.edu/locus>`_ ' 
+                    + 'for the most recent information.\n')
+    rstfile.write('\n')
+    rstfile.write('**In case of conflict, information on LOCUS should be considered authoritative.**\n')
+    rstfile.write('\n')
+
+    rstfile.write('QuickLinks\n')
+    rstfile.write('~~~~~~~~~~~~~\n')
+    rstfile.write('\n* :ref:`undergraduate_courses_table`')
+    rstfile.write('\n* :ref:`graduate_courses_table`')
+
+    rstfile.write('\n')
+    rstfile.write('\n.. _undergraduate_courses_table:')
+    rstfile.write('\n')
+    rstfile.write('\nUndergraduate Courses')
+    rstfile.write('\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
+    for line in data:
+        if line['SUBJECT'] == 'COMP':
+            if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
+                line['START TIME'] = 'See Note'
+                line['CLASS MEETING PATTERN'] = 'See Note'
+            courses += 1
+            if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
+                firstGraduateCourse = False
+                rstfile.write('\n.. _graduate_courses_table:')
+                rstfile.write('\n')
+                rstfile.write('\nGraduate Courses')
+                rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
+            if currentCourseNumber == line['CATALOG NUMBER']:
+                newCourse = False
+
+            else:
+                newCourse = True
+                currentCourseNumber = line['CATALOG NUMBER']
+                if len(notes) > 0:
+                    rstfile.write('\n.. rubric:: Notes\n')
+                    for note in notes:
+                        rstfile.write('\n.. [#] ' + note)
+                    notes = []
+                    rstfile.write('\n')
+            if newCourse:
+                newCourse = False
+            #prints the title of the course and sets up the table
+            if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
+                title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
+                rstfile.write(title)
+                rstfile.write('\n' + '-' * (len(title) + 1) + '\n')
+                rstfile.write('\n.. csv-table::')
+                rstfile.write('\n    :header: "Section", "Topic", "Instructor", "Time", "Day(s)", "Campus", "Note"')
+                rstfile.write('\n    :widths: 10, 100, 75, 75, 30, 50, 50\n\n')
+            else:
+                if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
+                    title = '\n:doc:`comp314-315`\n'
+                    rstfile.write(title)
+                    rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
+                else:
+                    title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
+                    rstfile.write(title)
+                    rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
+
+                rstfile.write('\n.. csv-table::')
+                rstfile.write('\n    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"')
+                rstfile.write('\n    :widths: 10, 175, 75, 30, 50, 50\n\n')
+
+        #prints the section number
+        rstfile.write('    ' + line['SECTION'].strip() + ', ')
+
+        if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
+            rstfile.write(line['COURSE TITLE'].strip() + ', ')
+           
+            
+
+           #prints the instructor
+
+        for name in parse_instructor2(line['INSTRUCTOR']):
+            rstfile.write(name)
+        rstfile.write(', ')
+
+        
+        #prints the start - end time
+        rstfile.write(parse_time(line['START TIME'].strip(), line['END TIME'].strip()) + ', ')
+
+        #prints the days of the week
+        if line['CLASS MEETING PATTERN'] == '':
+            rstfile.write('TBD, ')
+        else:             
+            rstfile.write(line['CLASS MEETING PATTERN'] + ', ')
+            
+           #prints the campus
+        rstfile.write(parse_campus(line['CLASS LOCATION'].strip()) + ', ')
+
+           #special case for COMP 388 - Foundations
+        note = line['DISPLAYED SECTION NOTES']
+        if note != '':
+            notes.append(note)
+            rstfile.write('See [#]_ \n')
+        else: 
+            rstfile.write('N/A \n')
+
+
+    print ('DESKTOP FORMAT COMPLETE')
+    print (str(courses) + ' courses added.')
+
+
+def main(csv_file, semester):
+    with open(csv_file, 'r') as f:
+        data = csv.DictReader(f, delimiter=',', quotechar='"')
+        for line in data:
+            if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
+                line['START TIME'] = 'See Note'
+        printDesktop(data, semester)
+        printMobile(csv_file, semester)
 
 main(raw_input("CSV File: "), raw_input("Semester: "))
 
