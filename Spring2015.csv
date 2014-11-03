@@ -1,12 +1,9 @@
-SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,INSTR STATUS,"
-
-ENROLL
-CAP",ROOM CAP,CLASS LOCATION,FACILITY,FACILITY TYPE,SESSION,CLASS MEETING PATTERN,START TIME,END TIME,COMBINED WITH,DISPLAYED SECTION NOTES,COMMENTS
+SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,INSTR STATUS,ENROLL CAP,ROOM CAP,CLASS LOCATION,FACILITY,FACILITY TYPE,SESSION,CLASS MEETING PATTERN,START TIME,END TIME,COMBINED WITH,DISPLAYED SECTION NOTES,COMMENTS
 COMP,125,1,Visual Information Processing,"Naiman,Channah",NTT,30,35,LSC,CC 105,,,TTr,1:00:00 PM,2:15:00 PM,,,
 COMP,125,2,Visual Information Processing,"Naiman,Channah",NTT,30,35,LSC,CC 105,,,Tr,4:15:00 PM,6:45:00 PM,,,
-COMP,150,1,Introduction to Computing,"Pokharel,Jiwan",PT,30,35,LSC,CC 105,,,TTr,2:30:00 PM,3:45:00 PM,,,
-COMP,150,2,Introduction to Computing,"Pokharel,Jiwan",PT,30,35,LSC,CC 105,,,TTr,11:30:00 AM,12:45:00 PM,,,move pending to MW 2:45-4
-COMP,150,3,Introduction to Computing,"Romer,Zachary",PT,30,35,LSC,CC 105,,,MW,12:10:00 PM,1:25:00 PM,,,Jiwan if still around - need to hire as PT fac - otherwise Zach
+COMP,150,1,Introduction to Computing,"Romer,Zachary",PT,30,35,LSC,CC 105,,,TTr,2:30:00 PM,3:45:00 PM,,,
+COMP,150,2,Introduction to Computing,"Romer,Zachary",PT,30,35,LSC,CC 105,,,TTr,11:30:00 AM,12:45:00 PM,,,move pending to MW 2:45-4
+COMP,150,3,Introduction to Computing,,PT,30,35,LSC,CC 105,,,MW,12:10:00 PM,1:25:00 PM,,,Jiwan if still around - need to hire as PT fac - otherwise Zach
 COMP,163,1,Discrete Structures,"Tuckey,Curtis D",PT,30,40,LSC,,,,MW,7:00:00 PM,8:15:00 PM,,,
 COMP,163,2,Discrete Structures,"Tuckey,Curtis D",PT,30,40,LSC,,,,MW,4:15:00 PM,5:30:00 PM,,,
 COMP,170,1,Introduction to Object-Oriented Programming,"Yacobellis,Robert",NTT,25,35,LSC,CC 103,,,TTr,10:00:00 AM,11:15:00 AM,,,
@@ -45,9 +42,9 @@ COMP,388,2,Advanced Algorithms & Complexity,"Sekharan,Chandra N",TT,35,,WTC,,,,T
 COMP,388,3,IT Project Management,"Weisert,Conrad",PT,35,,WTC,,,,F,4:15:00 PM,6:45:00 PM,477-001,,
 COMP,388,4,Foundations of Comp Sci I,"Harrington,Andrew N",TT,30,,WTC,,LAB,8W1,M,5:30:00 PM,9:30:00 PM,,"Time and Days: Seven weeks from start of semester, ending before vacation week. Classes 5:30-9:30PM all Mondays except MLK Day, plus two Fridays labeled in this list: January 12, 16 (Friday), 23 (Friday), 26, February 2, 9, 16, 23; labs each of those weeks on Wednesday, 4:30-6:45PM, Jan 14 - Feb 25. ",Foundations of Comp Sci I; restricted to Graduate School students; first eight-week session
 COMP,388,5,Foundations of Comp Sci II,"Dordal,Peter L",TT,30,,WTC,,LAB,8W2,M,5:30:00 PM,9:30:00 PM,,"Time and Days: Eight weeks after vacation, including two meetings in finals week. Mondays 5:30-9:30PM March 9 through April 27, Wednesdays 4:30-6:45PM March 11 through April 29, excluding Easter Break: April 1.",Foundations of Comp Sci II; restricted to Graduate School students; second eight-week session
-COMP,388,6,Computational Neuroscience,"Albert,Mark",TT,35,,LSC,,,,Tr,4:15:00 PM,6:45:00 PM,488-006,,
 COMP,388,7,Advanced Bioinformatics Research,"Putonti,Catherine",TT,30,,ONLN,,,,,,,,,
 COMP,388,8,Research Methods in Comp Sci,"Albert,Mark",TT,30,,ONLN,,,,,,,,,1 credit hour
+COMP,388,9,Computational Neuroscience,"Albert,Mark",TT,35,,LSC,,,,TTr,11:30:00 AM,12:45:00 PM,488-009,,
 COMP,391,01E,Internship in CS,"Greenberg,Ronald I",TT,20,,WTC,,,,,,,,,secondary instructor: Yacobellis
 COMP,398,01E,Independent Study,"Thiruvathukal,George",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
 COMP,398,02E,Independent Study,"Dordal,Peter L",TT,20,,WTC,,,,,,,,,
@@ -76,8 +73,8 @@ COMP,484,1,Artificial Intelligence,"Weisert,Conrad",PT,35,,WTC,,,,M,7:00:00 PM,9
 COMP,488,1,Data Warehousing and Data Mining,"Naiman,Channah",NTT,35,,WTC,,,,W,4:15:00 PM,6:45:00 PM,300-001,,
 COMP,488,2,Database Administration,"Dordal,Peter L",TT,35,,WTC,,LAB,,T,4:15:00 PM,6:45:00 PM,305-001,,
 COMP,488,3,Computer Forensics,"Yarrish,Thomas",PT,35,,WTC,,LAB,,W,7:00:00 PM,9:30:00 PM,340-001,,
-COMP,488,6,Computational Neuroscience,"Albert,Mark",TT,35,,LSC,,,,Tr,4:15:00 PM,6:45:00 PM,388-006,,
 COMP,488,7,Advanced Bioinformatics Research,"Putonti,Catherine",TT,30,,ONLN,,,,,,,,,
+COMP,488,9,Computational Neuroscience,"Albert,Mark",TT,35,,LSC,,,,TTr,11:30:00 AM,12:45:00 PM,388-009,,
 COMP,490,1,Independent Project,"Thiruvathukal,George",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
 COMP,490,2,Independent Project,"Dordal,Peter L",TT,20,,WTC,,,,,,,,,
 COMP,490,3,Independent Project,"Greenberg,Ronald I",TT,20,,WTC,,,,,,,,,

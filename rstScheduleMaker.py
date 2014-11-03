@@ -237,9 +237,6 @@ def printMobile(csv_file, semester):
 	newCourse = True
         firstGraduateCourse = True
         currentCourseNumber = '0'
-	writeLine(rstfile, 'test')
-	writeLine(rstfile, 'test')
-	writeLine(rstfile, 'test')
 	rstfile.write('Mobile Format - ' + semester + ' - Schedule\n')
         rstfile.write('==========================================================\n')
         rstfile.write('\n')
