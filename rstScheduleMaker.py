@@ -237,8 +237,8 @@ def printMobile(csv_file, semester):
 	newCourse = True
         firstGraduateCourse = True
         currentCourseNumber = '0'
-	rstfile.write('Mobile Format - ' + semester + ' - Schedule\n')
-        rstfile.write('==========================================================\n')
+	rstfile.write('Mobile/Single Column Format - ' + semester + ' - Schedule\n')
+        rstfile.write('==================================================================\n')
         rstfile.write('\n')
         rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
         rstfile.write('\n')
@@ -252,7 +252,7 @@ def printMobile(csv_file, semester):
 
         rstfile.write('QuickLinks\n')
         rstfile.write('~~~~~~~~~~~~~\n')
-        rstfile.write('\n* :doc:`' + sem[0] + sem[1] + 'widescreen.rst`')
+        rstfile.write('\n* :doc:`' + sem[0] + 'widescreen`')
         rstfile.write('\n* :ref:`undergraduate_courses_list`')
         rstfile.write('\n* :ref:`graduate_courses_list`')
 
@@ -349,8 +349,8 @@ def printWidescreen(csv_file, semester):
         currentCourseNumber = '0'
         notes = []
 
-	rstfile.write('Widescreen Format - ' + semester + ' - Schedule\n')
-        rstfile.write('====================================================\n')
+	rstfile.write('Widescreen/Table Format - ' + semester + ' - Schedule\n')
+        rstfile.write('=============================================================\n')
         rstfile.write('\n')
         rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
         rstfile.write('\n')
@@ -364,7 +364,7 @@ def printWidescreen(csv_file, semester):
 
         rstfile.write('QuickLinks\n')
         rstfile.write('~~~~~~~~~~~~~\n')
-        rstfile.write('\n* :doc:`' + sem[0] + sem[1] + 'mobile.rst`')
+        rstfile.write('\n* :doc:`' + sem[0] + 'mobile`')
         rstfile.write('\n* :ref:`undergraduate_courses_table`')
         rstfile.write('\n* :ref:`graduate_courses_table`')
 
