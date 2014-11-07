@@ -252,6 +252,7 @@ def printMobile(csv_file, semester):
 
         rstfile.write('QuickLinks\n')
         rstfile.write('~~~~~~~~~~~~~\n')
+        rstfile.write('\n* :doc:`' + sem[0] + sem[1] + 'widescreen.rst`')
         rstfile.write('\n* :ref:`undergraduate_courses_list`')
         rstfile.write('\n* :ref:`graduate_courses_list`')
 
@@ -335,11 +336,11 @@ def printMobile(csv_file, semester):
         print ('MOBILE FORMAT COMPLETE')
         print (str(courses) + ' courses added.')
 
-def printDesktop(csv_file, semester):
+def printWidescreen(csv_file, semester):
     
     with open(csv_file, 'r') as f:
         sem = semester.lower().split(' ')
-        rstfile = open(sem[0] + sem[1] + 'desktop.inc', "w")
+        rstfile = open(sem[0] + sem[1] + 'widescreen.inc', "w")
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
         courses = 0
@@ -348,8 +349,8 @@ def printDesktop(csv_file, semester):
         currentCourseNumber = '0'
         notes = []
 
-	rstfile.write('Desktop Format - ' + semester + ' - Schedule\n')
-        rstfile.write('==================================================\n')
+	rstfile.write('Widescreen Format - ' + semester + ' - Schedule\n')
+        rstfile.write('====================================================\n')
         rstfile.write('\n')
         rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
         rstfile.write('\n')
@@ -363,6 +364,7 @@ def printDesktop(csv_file, semester):
 
         rstfile.write('QuickLinks\n')
         rstfile.write('~~~~~~~~~~~~~\n')
+        rstfile.write('\n* :doc:`' + sem[0] + sem[1] + 'mobile.rst`')
         rstfile.write('\n* :ref:`undergraduate_courses_table`')
         rstfile.write('\n* :ref:`graduate_courses_table`')
 
@@ -460,13 +462,13 @@ def printDesktop(csv_file, semester):
                   rstfile.write('N/A \n')
 
 
-        print ('DESKTOP FORMAT COMPLETE')
+        print ('WIDESCREEN FORMAT COMPLETE')
         print (str(courses) + ' courses added.')
 
 
 def main(csv_file, semester):
    
-   printDesktop(csv_file, semester)
+   printWidescreen(csv_file, semester)
    printMobile(csv_file, semester)
 
 main(raw_input("CSV File: "), raw_input("Semester: "))
