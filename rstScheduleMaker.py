@@ -70,6 +70,7 @@ dict = {
     '412': 'Free/Open Source Computing',
     '413': 'Intermediate Object-Oriented Development',
     '417': 'Social, Legal, and Ethical Issues in Computing',
+    '418': 'Combinatorial Mathematics',
     '420': 'Software Systems Analysis',
     '421': 'Mathematical Modeling and Simulation',
     '422': 'Software Development for Wireless/Mobile Devices',
@@ -344,6 +345,15 @@ def printMobile(csv_file, semester):
                 
                rstfile.write('\n')
 
+        if (firstCSISCourse):
+            firstCSISCourse = False
+                   
+            rstfile.write('\n.. _csis_courses_list:')
+            rstfile.write('\n')
+            rstfile.write('\nCSIS Courses')
+            rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
+
+            rstfile.write('\nNo CSIS Courses Currently Available.')
         print ('MOBILE FORMAT COMPLETE')
         print (str(courses) + ' courses added.')
 
@@ -406,7 +416,7 @@ def printWidescreen(csv_file, semester):
                if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
 		   firstCSISCourse = False
                 
-                   rstfile.write('\n.. _CSIS_courses_table:')
+                   rstfile.write('\n.. _csis_courses_table:')
                    rstfile.write('\n')
                    rstfile.write('\nCSIS Courses')
                    rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
@@ -475,7 +485,6 @@ def printWidescreen(csv_file, semester):
                #prints the campus
                rstfile.write(parse_campus(line['CLASS LOCATION'].strip()) + ', ')
 
-	       #special case for COMP 388 - Foundations
                note = line['DISPLAYED SECTION NOTES']
                if note != '':
                   notes.append(note)
@@ -483,6 +492,15 @@ def printWidescreen(csv_file, semester):
                else: 
                   rstfile.write('N/A \n')
 
+	if (firstCSISCourse):
+            firstCSISCourse = False
+                   
+            rstfile.write('\n.. _csis_courses_table:')
+            rstfile.write('\n')
+            rstfile.write('\nCSIS Courses')
+            rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
+
+            rstfile.write('\nNo CSIS Courses Currently Available.')
 
         print ('WIDESCREEN FORMAT COMPLETE')
         print (str(courses) + ' courses added.')

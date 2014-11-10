@@ -6,23 +6,26 @@ COMP,150,2,Introduction to Computing,"Romer,Zachary",PT,30,35,LSC,CC 105,,,TTr,1
 COMP,150,3,Introduction to Computing,,PT,30,35,LSC,CC 105,,,MW,12:10:00 PM,1:25:00 PM,,,Jiwan if still around - need to hire as PT fac - otherwise Zach
 COMP,163,1,Discrete Structures,"Tuckey,Curtis D",PT,30,40,LSC,,,,MW,7:00:00 PM,8:15:00 PM,,,
 COMP,163,2,Discrete Structures,"Tuckey,Curtis D",PT,30,40,LSC,,,,MW,4:15:00 PM,5:30:00 PM,,,
-COMP,170,1,Introduction to Object-Oriented Programming,"Yacobellis,Robert",NTT,25,35,LSC,CC 103,,,TTr,10:00:00 AM,11:15:00 AM,,,
-COMP,170,2,Introduction to Object-Oriented Programming,"Harrington,Andrew N",TT,25,35,LSC,CC 103,,,TTr,1:00:00 PM,2:15:00 PM,,,
-COMP,170,3,Introduction to Object-Oriented Programming,"Naiman,Channah",NTT,25,35,LSC,CC 105,,,T,4:15:00 PM,6:45:00 PM,,,
-COMP,170,4,Introduction to Object-Oriented Programming,"Thiruvathukal,George",TT,25,35,LSC,CC 105,,,MWF,10:25:00 AM,11:15:00 AM,,,
-COMP,170,01L,Introduction to Object-Oriented Programming,"Yacobellis,Robert",NTT,25,35,LSC,CC 103,,,TTr,11:30:00 AM,11:55:00 AM,,,
-COMP,170,02L,Introduction to Object-Oriented Programming,"Harrington,Andrew N",TT,25,35,LSC,CC 103,,,TTr,12:20:00 PM,12:45:00 PM,,,
-COMP,170,03L,Introduction to Object-Oriented Programming,"Naiman,Channah",NTT,25,35,LSC,CC 105,,,T,7:00:00 PM,7:45:00 PM,,,
-COMP,170,04L,Introduction to Object-Oriented Programming,"Thiruvathukal,George",TT,25,35,LSC,CC 105,,,MW,11:30:00 AM,11:55:00 AM,,,
+COMP,170,1,Introduction to Object-Oriented Programming,"Yacobellis,Robert",NTT,25,35,LSC,CC 103,,,TTr,10:00:00 AM,11:15:00 AM,,Enrolling in this course will also enroll you in its lab section (01L). Meeting time is effectively 10:00 AM - 11:55 AM.,
+COMP,170,2,Introduction to Object-Oriented Programming,"Harrington,Andrew N",TT,25,35,LSC,CC 103,,,TTr,1:00:00 PM,2:15:00 PM,,"Enrolling in this course will also enroll you in its lab section (02L). Meeting time is effectively 12:20 PM - 2:15 PM.
+",
+COMP,170,3,Introduction to Object-Oriented Programming,"Naiman,Channah",NTT,25,35,LSC,CC 105,,,T,4:15:00 PM,6:45:00 PM,,"Enrolling in this course will also enroll you in its lab section (03L). Meeting time is effectively 4:15 PM - 7:45 PM.
+",
+COMP,170,4,Introduction to Object-Oriented Programming,"Thiruvathukal,George",TT,25,35,LSC,CC 105,,,MWF,10:25:00 AM,11:15:00 AM,,"Enrolling in this course will also enroll you in its lab section (04L). Meeting time is effectively 10:25 AM - 11:55 AM, except on Fridays when it is 10:25 AM - 11:15 AM.
+",
+COMP,170,01L,Introduction to Object-Oriented Programming,"Yacobellis,Robert",NTT,25,35,LSC,CC 103,,,TTr,11:30:00 AM,11:55:00 AM,,This is the lab section for 170-001.,
+COMP,170,02L,Introduction to Object-Oriented Programming,"Harrington,Andrew N",TT,25,35,LSC,CC 103,,,TTr,12:20:00 PM,12:45:00 PM,,This is the lab section for 170-002.,
+COMP,170,03L,Introduction to Object-Oriented Programming,"Naiman,Channah",NTT,25,35,LSC,CC 105,,,T,7:00:00 PM,7:45:00 PM,,This is the lab section for 170-003.,
+COMP,170,04L,Introduction to Object-Oriented Programming,"Thiruvathukal,George",TT,25,35,LSC,CC 105,,,MW,11:30:00 AM,11:55:00 AM,,This is the lab section for 170-004.,
 HONR,204,,Science and Society,"Albert,Mark",TT,,,LSC,,,,TTr,10:00:00 AM,11:15:00 AM,,,Claudio Katz will enter
 COMP,250,01W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",PT,18,25,LSC,CC 103,,,MW,2:45:00 PM,4:00:00 PM,,,
 COMP,250,02W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",PT,18,25,LSC,CC 103,,,M,7:00:00 PM,9:30:00 PM,,,
 COMP,251,1,Introduction to Database Systems,"Bevente,Guy",PT,30,,LSC,,,,M,7:00:00 PM,9:30:00 PM,,,
 COMP,264,1,Introduction to Computer Systems,"Greenberg,Ronald I",TT,45,,LSC,CC 103,,,Tr,4:15:00 PM,6:45:00 PM,,,
-COMP,271,1,Data Structures: Algorithms and Applications,"Saenz,Maria",PT,25,35,LSC,CC 103,,,TTr,7:00:00 PM,8:15:00 PM,,,
-COMP,271,2,Data Structures: Algorithms and Applications,"Putonti,Catherine",TT,25,35,LSC,CC 105,,,W,4:15:00 PM,6:45:00 PM,,,
-COMP,271,01L,Data Structures: Algorithms and Applications,"Saenz,Maria",PT,25,35,LSC,CC 103,,,TTr,8:30:00 PM,8:55:00 PM,,,
-COMP,271,02L,Data Structures: Algorithms and Applications,"Putonti,Catherine",TT,25,35,LSC,CC 105,,,W,7:00:00 PM,7:50:00 PM,,,
+COMP,271,1,Data Structures: Algorithms and Applications,"Saenz,Maria",PT,25,35,LSC,CC 103,,,TTr,7:00:00 PM,8:15:00 PM,,Enrolling in this course will also enroll you in its lab section (01L). Meeting time is effectively 7:00 PM - 8:55 PM.,
+COMP,271,2,Data Structures: Algorithms and Applications,"Putonti,Catherine",TT,25,35,LSC,CC 105,,,W,4:15:00 PM,6:45:00 PM,,Enrolling in this course will also enroll you in its lab section (02L). Meeting time is effectively 4:15 PM - 7:50 PM.,
+COMP,271,01L,Data Structures: Algorithms and Applications,"Saenz,Maria",PT,25,35,LSC,CC 103,,,TTr,8:30:00 PM,8:55:00 PM,,This is the lab section for 271-001.,
+COMP,271,02L,Data Structures: Algorithms and Applications,"Putonti,Catherine",TT,25,35,LSC,CC 105,,,W,7:00:00 PM,7:50:00 PM,,This is the lab section for 271-002.,
 COMP,300,1,Data Warehousing and Data Mining,"Naiman,Channah",NTT,35,,WTC,,,,W,4:15:00 PM,6:45:00 PM,488-001,,
 COMP,305,1,Database Administration,"Dordal,Peter L",TT,35,,WTC,,LAB,,T,4:15:00 PM,6:45:00 PM,488-002,,
 COMP,312,01E,Open Source Computing,"Kalwani,Sharan",TT,35,,WTC,,LAB,,W,7:00:00 PM,9:30:00 PM,412-001,,
@@ -60,6 +63,7 @@ COMP,399,1,Computer Science Seminar,"Albert,Mark",TT,30,,LSC,,,,F,12:35:00 PM,1:
 COMP,412,1,Open Source Computing,"Kalwani,Sharan",TT,35,,WTC,,LAB,,W,7:00:00 PM,9:30:00 PM,312-001,,
 COMP,413,1,Intermediate Object-Oriented Development,"Yacobellis,Robert",NTT,40,,WTC,,,,T,7:00:00 PM,9:30:00 PM,,,
 COMP,417,1,Social and Ethical Issues in Computing,"Dordal,Peter L",TT,35,,WTC,,,,Tr,4:15:00 PM,6:45:00 PM,,,
+COMP,418,1,Combinatorial Mathematics,"Lauve,Aaron",,30,,LSC,,,,MWF,10:25:00 AM,11:15:00 AM,,Register for MATH 418-001,
 COMP,441,1,Human-Computer Interface Design,"Hayward,Nicholas",PT,35,,WTC,,,,Tr,7:00:00 PM,9:30:00 PM,388-001,,
 COMP,448,1,Network Security,"Schmitz,Corby",PT,25,40,WTC,,,,F,5:30:00 PM,8:00:00 PM,348-001,,
 COMP,448,2,Network Security,"Schmitz,Corby",PT,25,,ONLN,,,,,,,348-002,,
@@ -88,3 +92,5 @@ COMP,490,10,Independent Project,"Naiman,Channah",NTT,20,,WTC,,,,,,,,,
 COMP,499,1,Internship,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
 COMP,499,2,Internship,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
 COMP,605,1,Master of Science Study,"Harrington,Andrew N",TT,20,,WTC,,,,,,,,,secondary instructor: Laufer
+CSIS,794,1,Managing Emerging Technologies,"Cicekoglu,Serhat",,,,WTC,,,,M,6:00:00 PM,9:00:00 PM,,Meeting Dates: 02/19/2015 - 05/09/2015,
+CSIS,796,1,Data Warehousing,"Sharma,Abishek",,,,WTC,,,,M,6:00:00 PM,9:00:00 PM,,Meeting Dates: 02/19/2015 - 05/09/2015,
