@@ -1,5 +1,7 @@
 import csv
 
+# dictionary to map course numbers to titles, no longer needed as the spreadsheet has the titles listed
+
 dict = {
     '101': 'Exploring the Internet',
     '102': 'Web Design and Multimedia Publishing',
@@ -103,9 +105,12 @@ dict = {
     '490': 'Independent Project',
     '499': 'Internship',
     '605': 'Master of Science Study',
+    '794': 'Managing Emerging Technologies', #CSIS Course
+    '796': 'Data Warehousing', # CSIS COURSE
     '???': 'DEFAULT'
     }
 
+# returns the title 
 def parse_title(id):
     title = dict[id]
     return title
@@ -218,14 +223,8 @@ def parse_note(note):
         return note
     else:
         return None
-
-def writeLine(rstfile, string):
-    rstfile.write(string + '\n')
-
-def skipLine(rstFile):
-    rstfile.write('\n')
  
-# Reads the spreadsheet and saves rst file in RSTFILE.txt
+# Reads the spreadsheet and saves rst file in 'semester + mobile.inc'
 def printMobile(csv_file, semester):
     
     with open(csv_file, 'r') as f:
@@ -236,6 +235,7 @@ def printMobile(csv_file, semester):
         courses = 0
 	newCourse = True
         firstGraduateCourse = True
+        firstCSISCourse = True
         currentCourseNumber = '0'
 	rstfile.write('Mobile/Single Column Format - ' + semester + ' - Schedule\n')
         rstfile.write('==================================================================\n')
@@ -255,6 +255,7 @@ def printMobile(csv_file, semester):
         rstfile.write('\n* :doc:`' + sem[0] + 'widescreen`')
         rstfile.write('\n* :ref:`undergraduate_courses_list`')
         rstfile.write('\n* :ref:`graduate_courses_list`')
+        rstfile.write('\n* :ref:`csis_courses_list`')
 
         rstfile.write('\n')
         rstfile.write('\n.. _undergraduate_courses_list:')
@@ -262,19 +263,29 @@ def printMobile(csv_file, semester):
         rstfile.write('\nUndergraduate Courses')
         rstfile.write('\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
 
-        #iterates through each entry in the spreadsheet
+        #iterates through each row in the spreadsheet
         for line in dict:
-	    if line['SUBJECT'] == 'COMP':
+	    if line['SUBJECT'] == 'COMP' or line['SUBJECT'] == 'CSIS':
                courses += 1
+	       #special case for Foundation Courses
                if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
                    line['START TIME'] = 'See Note'
                    line['CLASS MEETING PATTERN'] = 'See Note'
+               #encounter first graduate level course, add heading
 	       if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
                 
                    rstfile.write('\n.. _graduate_courses_list:')
                    rstfile.write('\n')
                    rstfile.write('\nGraduate Courses')
+                   rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
+               #encounter first CSIS course, add heading (CSIS courses should be added to the end of the spreadsheet)
+	       if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
+                   firstCSISCourse = False
+                   
+                   rstfile.write('\n.. _csis_courses_list:')
+                   rstfile.write('\n')
+                   rstfile.write('\nCSIS Courses')
                    rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
                #prints the title of the course
                if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
@@ -346,6 +357,7 @@ def printWidescreen(csv_file, semester):
         courses = 0
 	newCourse = True
         firstGraduateCourse = True
+        firstCSISCourse = True
         currentCourseNumber = '0'
         notes = []
 
@@ -367,6 +379,7 @@ def printWidescreen(csv_file, semester):
         rstfile.write('\n* :doc:`' + sem[0] + 'mobile`')
         rstfile.write('\n* :ref:`undergraduate_courses_table`')
         rstfile.write('\n* :ref:`graduate_courses_table`')
+        rstfile.write('\n* :ref:`csis_courses_table`')
 
         rstfile.write('\n')
         rstfile.write('\n.. _undergraduate_courses_table:')
@@ -376,17 +389,26 @@ def printWidescreen(csv_file, semester):
 
         #iterates through each entry in the spreadsheet
         for line in dict:
-            if line['SUBJECT'] == 'COMP':
+            if line['SUBJECT'] == 'COMP' or line['SUBJECT'] == 'CSIS':
                courses += 1
                if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
                    line['START TIME'] = 'See Note'
                    line['CLASS MEETING PATTERN'] = 'See Note'
+
 	       if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
                 
                    rstfile.write('\n.. _graduate_courses_table:')
                    rstfile.write('\n')
                    rstfile.write('\nGraduate Courses')
+                   rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
+
+               if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
+		   firstCSISCourse = False
+                
+                   rstfile.write('\n.. _CSIS_courses_table:')
+                   rstfile.write('\n')
+                   rstfile.write('\nCSIS Courses')
                    rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
 
                if currentCourseNumber == line['CATALOG NUMBER']:
