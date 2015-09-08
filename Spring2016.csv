@@ -1,0 +1,103 @@
+SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,CLASS CAMPUS,CLASS LOCATION,SESSION,CLASS MEETING PATTERN,START TIME,END TIME
+COMP,111,01W,History of Computing,"Thiruvathukal,George",LSC,LSC,1,MWF,11:30:00 AM,12:20:00 PM
+COMP,125,001,Visual Information Processing,"Naiman,Channah",LSC,LSC,1,TTr,01:00:00 PM,02:15:00 PM
+COMP,125,002,Visual Information Processing,"Bevente,Guy",LSC,LSC,1,Tr,07:00:00 PM,09:30:00 PM
+COMP,150,001,Introduction to Computing,"Harrington,Andrew N",LSC,LSC,1,T,02:30:00 PM,04:00:00 PM
+COMP,150,002,Introduction to Computing,,LSC,LSC,1,W,07:00:00 PM,09:30:00 PM
+COMP,150,003,Introduction to Computing,"Wheeler,Heather E.",LSC,LSC,1,MW,12:10:00 PM,01:25:00 PM
+COMP,163,001,Discrete Structures,,LSC,LSC,1,MW,02:45:00 PM,04:00:00 PM
+COMP,163,002,Discrete Structures,,LSC,LSC,1,MW,04:15:00 PM,05:30:00 PM
+COMP,170,001,Introduction to Object-Oriented Programming,"Yacobellis,Robert",LSC,LSC,1,TTr,10:00:00 AM,11:15:00 AM
+COMP,170,002,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,MW,10:25:00 AM,11:40:00 AM
+COMP,170,003,Introduction to Object-Oriented Programming,"Saenz,Maria Del Carmen",LSC,LSC,1,T,06:00:00 PM,08:30:00 PM
+COMP,170,004,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,MW,12:10:00 PM,01:25:00 PM
+COMP,170,01L,Introduction to Object-Oriented Programming,"Yacobellis,Robert",LSC,LSC,1,TTr,11:30:00 AM,11:55:00 AM
+COMP,170,02L,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,F,10:25:00 AM,11:15:00 AM
+COMP,170,03L,Introduction to Object-Oriented Programming,"Saenz,Maria Del Carmen",LSC,LSC,1,T,08:30:00 PM,09:20:00 PM
+COMP,170,04L,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,F,12:35:00 PM,01:25:00 PM
+COMP,250,01W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",LSC,LSC,1,MW,02:45:00 PM,04:00:00 PM
+COMP,250,02W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",LSC,LSC,1,M,07:00:00 PM,09:30:00 PM
+COMP,264,001,Introduction to Computer Systems,"Greenberg,Ronald I",LSC,LSC,1,MWF,09:20:00 AM,10:10:00 AM
+COMP,271,001,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,TTr,02:30:00 PM,03:45:00 PM
+COMP,271,002,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,W,04:15:00 PM,06:45:00 PM
+COMP,271,01L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,TTr,03:45:00 PM,04:05:00 PM
+COMP,271,02L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,W,07:00:00 PM,07:50:00 PM
+COMP,300,001,Data Warehousing and Data Mining,"Naiman,Channah",WTC,WTC,1,W,04:15:00 PM,06:45:00 PM
+COMP,300,002,Data Warehousing and Data Mining,"Naiman,Channah",ONLN,ONLN,1,,,
+COMP,305,001,Database Administration,"Dordal,Peter L",WTC,WTC,1,T,04:15:00 PM,06:45:00 PM
+COMP,312,01E,Open Source Computing,,WTC,WTC,1,W,07:00:00 PM,09:30:00 PM
+COMP,313,001,Intermediate Object-Oriented Development,"Yacobellis,Robert",LSC,LSC,1,TTr,01:00:00 PM,02:15:00 PM
+COMP,317,001,"Social, Legal, and Ethical Issues in Computing","Butcher,Matthew Paul",ONLN,ONLN,1,,,
+COMP,317,01W,"Social, Legal, and Ethical Issues in Computing","Schwab,Roxanne",LSC,LSC,1,M,07:00:00 PM,09:30:00 PM
+COMP,319,001,Introduction to UNIX,"Gahete Diaz,Jose Luis",LSC,LSC,1,F,01:40:00 PM,02:30:00 PM
+COMP,324,001,Client-Side Web Development,"Hayward,Nicholas J",WTC,WTC,1,M,04:15:00 PM,06:45:00 PM
+COMP,330,001,Software Engineering,"Thiruvathukal,George",LSC,LSC,1,Tr,06:00:00 PM,08:30:00 PM
+COMP,339,001,Distributed Programming,"Kaylor,Sarah",LSC,LSC,1,M,07:00:00 PM,09:30:00 PM
+COMP,340,001,Computer Forensics,"Yarrish,Thomas",WTC,WTC,1,W,07:00:00 PM,09:30:00 PM
+COMP,341,001,Human-Computer Interaction,"Hayward,Nicholas J",WTC,WTC,1,Tr,07:00:00 PM,09:30:00 PM
+COMP,348,001,Network Security,"Schmitz,Corby",WTC,WTC,1,F,05:30:00 PM,08:00:00 PM
+COMP,348,002,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,
+COMP,353,001,Database Programming,"Sekharan,Chandra N",LSC,LSC,1,M,04:15:00 PM,06:45:00 PM
+COMP,363,001,Desgn and Analysis Computer Algorithms,"Albert,Mark",LSC,LSC,1,Tr,02:45:00 PM,05:15:00 PM
+COMP,372,001,Programming Languages,"Laufer,Konstantin",LSC,LSC,1,W,02:45:00 PM,05:15:00 PM
+COMP,373,001,"Objects, Frameworks, and Patterns","Zewdie,Berhane",WTC,WTC,1,T,07:00:00 PM,09:30:00 PM
+COMP,377,001,IT Project Management,"Weisert,Conrad",WTC,WTC,1,F,04:15:00 PM,06:45:00 PM
+COMP,378,001,Artificial Intelligence,"Weisert,Conrad",LSC,LSC,1,M,02:45:00 PM,05:15:00 PM
+COMP,383,001,Computational Biology,"Wheeler,Heather E.",LSC,LSC,1,MW,02:45:00 PM,04:05:00 PM
+COMP,388,004,Topics in Computers Science,"Harrington,Andrew N",WTC,WTC,8W1,M,04:15:00 PM,08:15:00 PM
+COMP,388,005,Topics in Computers Science,"Dordal,Peter L",WTC,WTC,8W2,M,04:15:00 PM,08:15:00 PM
+COMP,388,006,Topics in Computers Science,"Gahete Diaz,Jose Luis",LSC,LSC,1,F,02:45:00 PM,04:00:00 PM
+COMP,388,007,Topics in Computers Science,,LSC,LSC,1,M,07:00:00 PM,09:30:00 PM
+COMP,391,01E,Internship in CS,"Greenberg,Ronald I",WTC,WTC,1,,,
+COMP,397,008,Research Seminar,"Albert,Mark",ONLN,ONLN,1,,,
+COMP,398,01E,Independent Study,"Laufer,Konstantin",WTC,WTC,1,,,
+COMP,398,02E,Independent Study,"Albert,Mark",WTC,WTC,1,,,
+COMP,398,03E,Independent Study,"Dligach,Dmitriy",WTC,WTC,1,,,
+COMP,398,04E,Independent Study,"Dordal,Peter L",WTC,WTC,1,,,
+COMP,398,05E,Independent Study,"Greenberg,Ronald I",WTC,WTC,1,,,
+COMP,398,06E,Independent Study,"Harrington,Andrew N",WTC,WTC,1,,,
+COMP,398,07E,Independent Study,"Hayward,Nicholas J",WTC,WTC,1,,,
+COMP,398,08E,Independent Study,"Honig,William",WTC,WTC,1,,,
+COMP,398,09E,Independent Study,"Naiman,Channah",WTC,WTC,1,,,
+COMP,398,10E,Independent Study,"Putonti,Catherine",WTC,WTC,1,,,
+COMP,398,11E,Independent Study,"Sekharan,Chandra N",WTC,WTC,1,,,
+COMP,398,12E,Independent Study,"Wheeler,Heather E.",WTC,WTC,1,,,
+COMP,398,13E,Independent Study,"Yacobellis,Robert",WTC,WTC,1,,,
+COMP,399,001,Computer Science Seminar,"Albert,Mark",LSC,LSC,1,T,11:30:00 AM,12:45:00 PM
+COMP,412,001,Open Source Computing,,WTC,WTC,1,W,07:00:00 PM,09:30:00 PM
+COMP,413,001,Intermediate Object-Oriented Development,"Yacobellis,Robert",WTC,WTC,1,T,04:15:00 PM,06:45:00 PM
+COMP,417,001,Social and Ethical Issues in Computing,"Dordal,Peter L",WTC,WTC,1,Tr,04:15:00 PM,06:45:00 PM
+COMP,424,001,Client-Side Web Design,"Hayward,Nicholas J",WTC,WTC,1,M,04:15:00 PM,06:45:00 PM
+COMP,439,001,Distributed Systems,"Kaylor,Sarah",LSC,LSC,1,M,07:00:00 PM,09:30:00 PM
+COMP,441,001,Human-Computer Interface Design,"Hayward,Nicholas J",WTC,WTC,1,Tr,07:00:00 PM,09:30:00 PM
+COMP,448,001,Network Security,"Schmitz,Corby",WTC,WTC,1,F,05:30:00 PM,08:00:00 PM
+COMP,448,002,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,
+COMP,460,001,Algorithms & Complexity,"Sekharan,Chandra N",LSC,LSC,1,T,02:45:00 PM,05:15:00 PM
+COMP,471,001,Thry of Programming Languages,"Laufer,Konstantin",LSC,LSC,1,W,02:45:00 PM,05:15:00 PM
+COMP,473,001,Object-Oriented Programming,"Zewdie,Berhane",WTC,WTC,1,T,07:00:00 PM,09:30:00 PM
+COMP,474,001,Software Engineering,,WTC,WTC,1,Tr,07:00:00 PM,09:30:00 PM
+COMP,477,001,IT Project Management,"Weisert,Conrad",WTC,WTC,1,F,04:15:00 PM,06:45:00 PM
+COMP,484,001,Artificial Intelligence,"Weisert,Conrad",LSC,LSC,1,M,02:45:00 PM,05:15:00 PM
+COMP,488,007,Computer Science Topics,,LSC,LSC,1,M,07:00:00 PM,09:30:00 PM
+COMP,488,301,Computer Science Topics,"Naiman,Channah",WTC,WTC,1,W,04:15:00 PM,06:45:00 PM
+COMP,488,302,Computer Science Topics,"Naiman,Channah",ONLN,ONLN,1,,,
+COMP,488,305,Computer Science Topics,"Dordal,Peter L",WTC,WTC,1,T,04:15:00 PM,06:45:00 PM
+COMP,488,340,Computer Science Topics,"Yarrish,Thomas",WTC,WTC,1,W,07:00:00 PM,09:30:00 PM
+COMP,488,383,Computer Science Topics,"Wheeler,Heather E.",LSC,LSC,1,MW,02:45:00 PM,04:05:00 PM
+COMP,488,402,Computer Science Topics,"Hayward,Nicholas J",WTC,WTC,1,W,04:15:00 PM,06:45:00 PM
+COMP,490,001,Independent Project,"Laufer,Konstantin",WTC,WTC,1,,,
+COMP,490,002,Independent Project,"Albert,Mark",WTC,WTC,1,,,
+COMP,490,003,Independent Project,"Dligach,Dmitriy",WTC,WTC,1,,,
+COMP,490,004,Independent Project,"Dordal,Peter L",WTC,WTC,1,,,
+COMP,490,005,Independent Project,"Greenberg,Ronald I",WTC,WTC,1,,,
+COMP,490,006,Independent Project,"Harrington,Andrew N",WTC,WTC,1,,,
+COMP,490,007,Independent Project,"Hayward,Nicholas J",WTC,WTC,1,,,
+COMP,490,008,Independent Project,"Honig,William",WTC,WTC,1,,,
+COMP,490,009,Independent Project,"Naiman,Channah",WTC,WTC,1,,,
+COMP,490,010,Independent Project,"Putonti,Catherine",WTC,WTC,1,,,
+COMP,490,011,Independent Project,"Sekharan,Chandra N",WTC,WTC,1,,,
+COMP,490,012,Independent Project,"Wheeler,Heather E.",WTC,WTC,1,,,
+COMP,490,013,Independent Project,"Yacobellis,Robert",WTC,WTC,1,,,
+COMP,499,001,Internship,"Laufer,Konstantin",WTC,WTC,1,,,
+COMP,605,001,Master of Science Study,"Laufer,Konstantin",WTC,WTC,1,,,
+Prepared on: 09/08/15,,,,,,,,,,

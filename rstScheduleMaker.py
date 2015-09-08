@@ -29,6 +29,7 @@ dict = {
     '317': 'Social, Legal, and Ethical Issues in Computing',
     '319': 'Introduction to Unix',
     '320': 'Software Systems Analysis',
+    '324': 'Client-Side Web Development',
     '330': 'Software Engineering',
     '331': 'Cryptography',
     '332': 'Design Patterns and Object Oriented Design',
@@ -296,7 +297,7 @@ def printMobile(csv_file, semester):
                    rstfile.write('\n' + '~' * (len(title) + 1))
                else:
                    title = ('\nCOMP ' + line['CATALOG NUMBER'].strip() + '-' + line['SECTION'].strip()
-                         + ': ' + parse_title(line['CATALOG NUMBER']))
+                         + ': ' + line['COURSE TITLE'])
                    rstfile.write(title)
                    rstfile.write('\n' + '~' *(len(title) + 1))
 
@@ -330,7 +331,9 @@ def printMobile(csv_file, semester):
                rstfile.write('\n')
 
                #prints the note if there is a note
-               note = parse_note(line['DISPLAYED SECTION NOTES'])
+               #note = parse_note(line['DISPLAYED SECTION NOTES'])
+               #note = line['DISPLAYED SECTION NOTES']
+               note = ''
                if not note == None:
                    rstfile.write('\nNotes: ' + note)
                    rstfile.write('\n')
@@ -485,7 +488,8 @@ def printWidescreen(csv_file, semester):
                #prints the campus
                rstfile.write(parse_campus(line['CLASS LOCATION'].strip()) + ', ')
 
-               note = line['DISPLAYED SECTION NOTES']
+               #note = line['DISPLAYED SECTION NOTES']
+               note = ''
                if note != '':
                   notes.append(note)
                   rstfile.write('[#]_ \n')
