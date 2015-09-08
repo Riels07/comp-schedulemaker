@@ -234,11 +234,11 @@ def printMobile(csv_file, semester):
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
         courses = 0
-	newCourse = True
+        newCourse = True
         firstGraduateCourse = True
         firstCSISCourse = True
         currentCourseNumber = '0'
-	rstfile.write('Mobile/Single Column Format - ' + semester + ' - Schedule\n')
+        rstfile.write('Mobile/Single Column Format - ' + semester + ' - Schedule\n')
         rstfile.write('==================================================================\n')
         rstfile.write('\n')
         rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
@@ -266,14 +266,14 @@ def printMobile(csv_file, semester):
 
         #iterates through each row in the spreadsheet
         for line in dict:
-	    if line['SUBJECT'] == 'COMP' or line['SUBJECT'] == 'CSIS':
+            if line['SUBJECT'] == 'COMP' or line['SUBJECT'] == 'CSIS':
                courses += 1
 	       #special case for Foundation Courses
                if line['CATALOG NUMBER'] == '388' and (line['SECTION'] == '4' or line['SECTION'] == '5'):
                    line['START TIME'] = 'See Note'
                    line['CLASS MEETING PATTERN'] = 'See Note'
                #encounter first graduate level course, add heading
-	       if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
+               if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
                 
                    rstfile.write('\n.. _graduate_courses_list:')
@@ -281,7 +281,7 @@ def printMobile(csv_file, semester):
                    rstfile.write('\nGraduate Courses')
                    rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
                #encounter first CSIS course, add heading (CSIS courses should be added to the end of the spreadsheet)
-	       if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
+               if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
                    firstCSISCourse = False
                    
                    rstfile.write('\n.. _csis_courses_list:')
@@ -365,13 +365,13 @@ def printWidescreen(csv_file, semester):
         dict = csv.DictReader(f, delimiter=',', quotechar='"')
 
         courses = 0
-	newCourse = True
+        newCourse = True
         firstGraduateCourse = True
         firstCSISCourse = True
         currentCourseNumber = '0'
         notes = []
 
-	rstfile.write('Widescreen/Table Format - ' + semester + ' - Schedule\n')
+        rstfile.write('Widescreen/Table Format - ' + semester + ' - Schedule\n')
         rstfile.write('=============================================================\n')
         rstfile.write('\n')
         rstfile.write('The following courses will (tentatively) be held during the ' + semester + ' semester.\n')
@@ -405,7 +405,7 @@ def printWidescreen(csv_file, semester):
                    line['START TIME'] = 'See Note'
                    line['CLASS MEETING PATTERN'] = 'See Note'
 
-	       if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
+               if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
                 
                    rstfile.write('\n.. _graduate_courses_table:')
@@ -414,7 +414,7 @@ def printWidescreen(csv_file, semester):
                    rstfile.write('\n~~~~~~~~~~~~~~~~~~\n')
 
                if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
-		   firstCSISCourse = False
+                   firstCSISCourse = False
                 
                    rstfile.write('\n.. _csis_courses_table:')
                    rstfile.write('\n')
@@ -433,30 +433,30 @@ def printWidescreen(csv_file, semester):
                       notes = []
                       rstfile.write('\n')
 
-	       if newCourse:
+               if newCourse:
                    newCourse = False
                 
                    #prints the title of the course and sets up the table
-		   if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
+                   if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
                        title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
                        rstfile.write(title)
                        rstfile.write('\n' + '-' * (len(title) + 1) + '\n')
                        rstfile.write('\n.. csv-table::')
                        rstfile.write('\n    :header: "Section", "Topic", "Instructor", "Time", "Day(s)", "Campus", "Note"')
-   	               rstfile.write('\n    :widths: 10, 100, 75, 75, 30, 50, 50\n\n')
+                       rstfile.write('\n    :widths: 10, 100, 75, 75, 30, 50, 50\n\n')
                    else:
                        if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
                            title = '\n:doc:`comp314-315`\n'
                            rstfile.write(title)
-                    	   rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
+                           rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
                        else:
                            title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
-                    	   rstfile.write(title)
-                    	   rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
+                           rstfile.write(title)
+                           rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
                    
                        rstfile.write('\n.. csv-table::')
                        rstfile.write('\n    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"')
-   	               rstfile.write('\n    :widths: 10, 175, 75, 30, 50, 50\n\n')
+                       rstfile.write('\n    :widths: 10, 175, 75, 30, 50, 50\n\n')
    
                #prints the section number
                rstfile.write('    ' + line['SECTION'].strip() + ', ')
@@ -492,7 +492,7 @@ def printWidescreen(csv_file, semester):
                else: 
                   rstfile.write('N/A \n')
 
-	if (firstCSISCourse):
+        if (firstCSISCourse):
             firstCSISCourse = False
                    
             rstfile.write('\n.. _csis_courses_table:')
@@ -511,7 +511,7 @@ def main(csv_file, semester):
    printWidescreen(csv_file, semester)
    printMobile(csv_file, semester)
 
-main(raw_input("CSV File: "), raw_input("Semester: "))
+main(input("CSV File: "), input("Semester: "))
 
 
         
