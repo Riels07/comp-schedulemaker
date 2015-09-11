@@ -112,7 +112,7 @@ dict = {
     '???': 'DEFAULT'
     }
 
-# returns the title 
+# returns the title
 def parse_title(id):
     title = dict[id]
     return title
@@ -128,7 +128,7 @@ def parse_days(days):
         # needed so "Tr" doesn't add Tuesday and Thursday
         if (days.count("Tr") == 1 and days.count("T") == 2):
             decoded.append('Tuesday')
-        # needed so "T" 
+        # needed so "T"
         elif (days.count("Tr") == 0 and days.count("T") == 1):
             decoded.append('Tuesday')
     if "W" in days:
@@ -190,7 +190,7 @@ def parse_facility(facility):
         return facility
     else:
         return data[0] + ' ' + data[1]
-    
+
 # gets the start and end time of the course and returns in form start-end
 def parse_time(start, end):
     if start == 'See Note':
@@ -225,10 +225,10 @@ def parse_note(note):
         return note
     else:
         return None
- 
+
 # Reads the spreadsheet and saves rst file in 'semester + mobile.inc'
 def printMobile(csv_file, semester):
-    
+
     with open(csv_file, 'r') as f:
         sem = semester.lower().split(' ')
         rstfile = open(sem[0] + sem[1] + 'mobile.inc', "w")
@@ -246,7 +246,7 @@ def printMobile(csv_file, semester):
         rstfile.write('\n')
         rstfile.write('For classroom locations and open/full status, see `LOCUS <http://www.luc.edu/locus>`_.\n')
         rstfile.write('\n')
-        rstfile.write('Note: While we update this page regularly, please check `LOCUS <http://www.luc.edu/locus>`_ ' 
+        rstfile.write('Note: While we update this page regularly, please check `LOCUS <http://www.luc.edu/locus>`_ '
 			+ 'for the most recent information.\n')
         rstfile.write('\n')
         rstfile.write('**In case of conflict, information on LOCUS should be considered authoritative.**\n')
@@ -276,7 +276,7 @@ def printMobile(csv_file, semester):
                #encounter first graduate level course, add heading
                if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
-                
+
                    rstfile.write('\n.. _graduate_courses_list:')
                    rstfile.write('\n')
                    rstfile.write('\nGraduate Courses')
@@ -284,7 +284,7 @@ def printMobile(csv_file, semester):
                #encounter first CSIS course, add heading (CSIS courses should be added to the end of the spreadsheet)
                if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
                    firstCSISCourse = False
-                   
+
                    rstfile.write('\n.. _csis_courses_list:')
                    rstfile.write('\n')
                    rstfile.write('\nCSIS Courses')
@@ -308,7 +308,7 @@ def printMobile(csv_file, semester):
                    rstfile.write('\n')
                    rstfile.write('\n' + '**' +  session + '**')
 
-            
+
                #prints the instructor
                rstfile.write('\n')
                rstfile.write('\nInstructor: ')
@@ -320,7 +320,7 @@ def printMobile(csv_file, semester):
                rstfile.write('\nTime: ' + parse_time(line['START TIME'].strip(), line['END TIME'].strip()))
                rstfile.write('\n')
 
-               #prints the days of the week                
+               #prints the days of the week
                rstfile.write('\nDay(s): ')
                for day in parse_days(line['CLASS MEETING PATTERN']):
                    rstfile.write(day + ' ')
@@ -331,13 +331,12 @@ def printMobile(csv_file, semester):
                rstfile.write('\n')
 
                #prints the note if there is a note
-               #note = parse_note(line['DISPLAYED SECTION NOTES'])
-               #note = line['DISPLAYED SECTION NOTES']
-               note = ''
+               note = parse_note(line['NOTES'])
+               #note = line['NOTES']
                if not note == None:
-                   rstfile.write('\nNotes: ' + note)
-                   rstfile.write('\n')
-                                          
+                  rstfile.write('\nNotes: ' + note)
+                  rstfile.write('\n')
+
                if line['CATALOG NUMBER'] == '314' or line['CATALOG NUMBER'] == '315':
                    rstfile.write('\nCourse Description: ' +
                           ':doc:`comp314-315`')
@@ -345,12 +344,12 @@ def printMobile(csv_file, semester):
                    rstfile.write('\nCourse Description: ' +
                           ':doc:`comp'
                           + line['CATALOG NUMBER'].strip() + '`')
-                
+
                rstfile.write('\n')
 
         if (firstCSISCourse):
             firstCSISCourse = False
-                   
+
             rstfile.write('\n.. _csis_courses_list:')
             rstfile.write('\n')
             rstfile.write('\nCSIS Courses')
@@ -361,7 +360,7 @@ def printMobile(csv_file, semester):
         print (str(courses) + ' courses added.')
 
 def printWidescreen(csv_file, semester):
-    
+
     with open(csv_file, 'r') as f:
         sem = semester.lower().split(' ')
         rstfile = open(sem[0] + sem[1] + 'widescreen.inc', "w")
@@ -381,7 +380,7 @@ def printWidescreen(csv_file, semester):
         rstfile.write('\n')
         rstfile.write('For classroom locations and open/full status, see `LOCUS <http://www.luc.edu/locus>`_.\n')
         rstfile.write('\n')
-        rstfile.write('Note: While we update this page regularly, please check `LOCUS <http://www.luc.edu/locus>`_ ' 
+        rstfile.write('Note: While we update this page regularly, please check `LOCUS <http://www.luc.edu/locus>`_ '
 			+ 'for the most recent information.\n')
         rstfile.write('\n')
         rstfile.write('**In case of conflict, information on LOCUS should be considered authoritative.**\n')
@@ -410,7 +409,7 @@ def printWidescreen(csv_file, semester):
 
                if int(line['CATALOG NUMBER']) >= 400 and firstGraduateCourse:
                    firstGraduateCourse = False
-                
+
                    rstfile.write('\n.. _graduate_courses_table:')
                    rstfile.write('\n')
                    rstfile.write('\nGraduate Courses')
@@ -418,7 +417,7 @@ def printWidescreen(csv_file, semester):
 
                if line['SUBJECT'] == 'CSIS' and firstCSISCourse:
                    firstCSISCourse = False
-                
+
                    rstfile.write('\n.. _csis_courses_table:')
                    rstfile.write('\n')
                    rstfile.write('\nCSIS Courses')
@@ -432,13 +431,13 @@ def printWidescreen(csv_file, semester):
                    if len(notes) > 0:
                       rstfile.write('\n.. rubric:: Notes\n')
                       for note in notes:
-                         rstfile.write('\n.. [#] ' + note)              
+                         rstfile.write('\n.. [#] ' + note)
                       notes = []
                       rstfile.write('\n')
 
                if newCourse:
                    newCourse = False
-                
+
                    #prints the title of the course and sets up the table
                    if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
                        title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
@@ -456,18 +455,18 @@ def printWidescreen(csv_file, semester):
                            title = '\n:doc:`comp' + line['CATALOG NUMBER'].strip() + '`'
                            rstfile.write(title)
                            rstfile.write('\n' + '-' *(len(title) + 1) +'\n')
-                   
+
                        rstfile.write('\n.. csv-table::')
                        rstfile.write('\n    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"')
                        rstfile.write('\n    :widths: 10, 175, 75, 30, 50, 50\n\n')
-   
+
                #prints the section number
                rstfile.write('    ' + line['SECTION'].strip() + ', ')
 
                if line['CATALOG NUMBER'] == '388' or line['CATALOG NUMBER'] == '488':
                    rstfile.write(line['COURSE TITLE'].strip() + ', ')
-               
-                
+
+
 
                #prints the instructor
 
@@ -475,30 +474,29 @@ def printWidescreen(csv_file, semester):
                    rstfile.write(name)
                rstfile.write(', ')
 
-            
+
                #prints the start - end time
                rstfile.write(parse_time(line['START TIME'].strip(), line['END TIME'].strip()) + ', ')
 
                #prints the days of the week
                if line['CLASS MEETING PATTERN'] == '':
                    rstfile.write('TBD, ')
-               else:             
+               else:
                    rstfile.write(line['CLASS MEETING PATTERN'] + ', ')
-                
+
                #prints the campus
                rstfile.write(parse_campus(line['CLASS LOCATION'].strip()) + ', ')
 
-               #note = line['DISPLAYED SECTION NOTES']
-               note = ''
+               note = line['NOTES']
                if note != '':
                   notes.append(note)
                   rstfile.write('[#]_ \n')
-               else: 
+               else:
                   rstfile.write('N/A \n')
 
         if (firstCSISCourse):
             firstCSISCourse = False
-                   
+
             rstfile.write('\n.. _csis_courses_table:')
             rstfile.write('\n')
             rstfile.write('\nCSIS Courses')
@@ -511,11 +509,8 @@ def printWidescreen(csv_file, semester):
 
 
 def main(csv_file, semester):
-   
+
    printWidescreen(csv_file, semester)
    printMobile(csv_file, semester)
 
 main(input("CSV File: "), input("Semester: "))
-
-
-        
