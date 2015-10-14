@@ -1,8 +1,8 @@
 SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,CLASS CAMPUS,CLASS LOCATION,SESSION,CLASS MEETING PATTERN,START TIME,END TIME,NOTES
-COMP,111,01W,History of Computing,"Thiruvathukal,George",LSC,LSC,1,MWF,11:30:00 AM,12:20:00 PM,Hi
-COMP,125,1,Visual Information Processing,"Naiman,Channah",LSC,LSC,1,TTr,1:00:00 PM,2:15:00 PM,Hello
-COMP,125,2,Visual Information Processing,"Bevente,Guy",LSC,LSC,1,Tr,7:00:00 PM,9:30:00 PM,woop
-COMP,150,1,Introduction to Computing,"Harrington,Andrew N",LSC,LSC,1,T,2:30:00 PM,4:00:00 PM,go away
+COMP,111,01W,History of Computing,"Thiruvathukal,George",LSC,LSC,1,MWF,11:30:00 AM,12:20:00 PM,
+COMP,125,1,Visual Information Processing,"Naiman,Channah",LSC,LSC,1,TTr,1:00:00 PM,2:15:00 PM,
+COMP,125,2,Visual Information Processing,"Bevente,Guy",LSC,LSC,1,Tr,7:00:00 PM,9:30:00 PM,
+COMP,150,1,Introduction to Computing,"Harrington,Andrew N",LSC,LSC,1,T,2:30:00 PM,4:00:00 PM,
 COMP,150,2,Introduction to Computing,,LSC,LSC,1,W,7:00:00 PM,9:30:00 PM,
 COMP,150,3,Introduction to Computing,"Wheeler,Heather E.",LSC,LSC,1,MW,12:10:00 PM,1:25:00 PM,
 COMP,163,1,Discrete Structures,,LSC,LSC,1,MW,2:45:00 PM,4:00:00 PM,
@@ -23,11 +23,11 @@ COMP,271,2,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,
 COMP,271,01L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,TTr,3:45:00 PM,4:05:00 PM,
 COMP,271,02L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,W,7:00:00 PM,7:50:00 PM,
 COMP,300,1,Data Warehousing and Data Mining,"Naiman,Channah",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,
-COMP,300,2,Data Warehousing and Data Mining,"Naiman,Channah",ONLN,ONLN,1,,,,
+COMP,300,2,Data Warehousing and Data Mining,"Naiman,Channah",ONLN,ONLN,1,,,,This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 488-302.
 COMP,305,1,Database Administration,"Dordal,Peter L",WTC,WTC,1,T,4:15:00 PM,6:45:00 PM,
 COMP,312,01E,Open Source Computing,,WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,
 COMP,313,1,Intermediate Object-Oriented Development,"Yacobellis,Robert",LSC,LSC,1,TTr,1:00:00 PM,2:15:00 PM,
-COMP,317,1,"Social, Legal, and Ethical Issues in Computing","Butcher,Matthew Paul",ONLN,ONLN,1,,,,
+COMP,317,1,"Social, Legal, and Ethical Issues in Computing","Butcher,Matthew Paul",ONLN,ONLN,1,,,,This is an online class.  All lectures will be pre-recorded.  Students are asked to attend smaller-group online interactive discussions at regular intervals during the semester with possible times chosen to fit different groups' schedules.
 COMP,317,01W,"Social, Legal, and Ethical Issues in Computing","Schwab,Roxanne",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
 COMP,319,1,Introduction to UNIX,"Gahete Diaz,Jose Luis",LSC,LSC,1,F,1:40:00 PM,2:30:00 PM,
 COMP,324,1,Client-Side Web Development,"Hayward,Nicholas J",WTC,WTC,1,M,4:15:00 PM,6:45:00 PM,
@@ -36,7 +36,7 @@ COMP,339,1,Distributed Programming,"Kaylor,Sarah",LSC,LSC,1,M,7:00:00 PM,9:30:00
 COMP,340,1,Computer Forensics,"Yarrish,Thomas",WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,
 COMP,341,1,Human-Computer Interaction,"Hayward,Nicholas J",WTC,WTC,1,Tr,7:00:00 PM,9:30:00 PM,
 COMP,348,1,Network Security,"Schmitz,Corby",WTC,WTC,1,F,5:30:00 PM,8:00:00 PM,
-COMP,348,2,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,,
+COMP,348,2,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,,This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
 COMP,353,1,Database Programming,"Sekharan,Chandra N",LSC,LSC,1,M,4:15:00 PM,6:45:00 PM,
 COMP,363,1,Desgn and Analysis Computer Algorithms,"Albert,Mark",LSC,LSC,1,Tr,2:45:00 PM,5:15:00 PM,
 COMP,372,1,Programming Languages,"Laufer,Konstantin",LSC,LSC,1,W,2:45:00 PM,5:15:00 PM,
@@ -49,7 +49,7 @@ COMP,388,5,Topics in Computers Science,"Dordal,Peter L",WTC,WTC,8W2,M,4:15:00 PM
 COMP,388,6,Topics in Computers Science,"Gahete Diaz,Jose Luis",LSC,LSC,1,F,2:45:00 PM,4:00:00 PM,
 COMP,388,7,Topics in Computers Science,,LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
 COMP,391,01E,Internship in CS,"Greenberg,Ronald I",WTC,WTC,1,,,,
-COMP,397,8,Research Seminar,"Albert,Mark",ONLN,ONLN,1,,,,
+COMP,397,8,Research Seminar,"Albert,Mark",ONLN,ONLN,1,,,,The Computer Science Seminar course and the Research Seminar course will meet on alternate weeks at the scheduled course time.
 COMP,398,01E,Independent Study,"Laufer,Konstantin",WTC,WTC,1,,,,
 COMP,398,02E,Independent Study,"Albert,Mark",WTC,WTC,1,,,,
 COMP,398,03E,Independent Study,"Dligach,Dmitriy",WTC,WTC,1,,,,
@@ -71,7 +71,7 @@ COMP,424,1,Client-Side Web Design,"Hayward,Nicholas J",WTC,WTC,1,M,4:15:00 PM,6:
 COMP,439,1,Distributed Systems,"Kaylor,Sarah",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
 COMP,441,1,Human-Computer Interface Design,"Hayward,Nicholas J",WTC,WTC,1,Tr,7:00:00 PM,9:30:00 PM,
 COMP,448,1,Network Security,"Schmitz,Corby",WTC,WTC,1,F,5:30:00 PM,8:00:00 PM,
-COMP,448,2,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,,
+COMP,448,2,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,,This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
 COMP,460,1,Algorithms & Complexity,"Sekharan,Chandra N",LSC,LSC,1,T,2:45:00 PM,5:15:00 PM,
 COMP,471,1,Thry of Programming Languages,"Laufer,Konstantin",LSC,LSC,1,W,2:45:00 PM,5:15:00 PM,
 COMP,473,1,Object-Oriented Programming,"Zewdie,Berhane",WTC,WTC,1,T,7:00:00 PM,9:30:00 PM,
@@ -80,7 +80,7 @@ COMP,477,1,IT Project Management,"Weisert,Conrad",WTC,WTC,1,F,4:15:00 PM,6:45:00
 COMP,484,1,Artificial Intelligence,"Weisert,Conrad",LSC,LSC,1,M,2:45:00 PM,5:15:00 PM,
 COMP,488,7,Computer Science Topics,,LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
 COMP,488,301,Computer Science Topics,"Naiman,Channah",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,
-COMP,488,302,Computer Science Topics,"Naiman,Channah",ONLN,ONLN,1,,,,
+COMP,488,302,Computer Science Topics,"Naiman,Channah",ONLN,ONLN,1,,,,This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 300-002.
 COMP,488,305,Computer Science Topics,"Dordal,Peter L",WTC,WTC,1,T,4:15:00 PM,6:45:00 PM,
 COMP,488,340,Computer Science Topics,"Yarrish,Thomas",WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,
 COMP,488,383,Computer Science Topics,"Wheeler,Heather E.",LSC,LSC,1,MW,2:45:00 PM,4:05:00 PM,
