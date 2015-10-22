@@ -33,8 +33,6 @@ Day(s): Monday Wednesday Friday
 
 Campus: Lakeshore
 
-Notes: Hi
-
 Course Description: :doc:`comp111`
 
 COMP 125-1: Visual Information Processing
@@ -47,8 +45,6 @@ Time: 1:00 PM - 2:15 PM
 Day(s): Tuesday Thursday 
 
 Campus: Lakeshore
-
-Notes: Hello
 
 Course Description: :doc:`comp125`
 
@@ -63,8 +59,6 @@ Day(s): Thursday
 
 Campus: Lakeshore
 
-Notes: woop
-
 Course Description: :doc:`comp125`
 
 COMP 150-1: Introduction to Computing
@@ -77,8 +71,6 @@ Time: 2:30 PM - 4:00 PM
 Day(s): Tuesday 
 
 Campus: Lakeshore
-
-Notes: go away
 
 Course Description: :doc:`comp150`
 
@@ -353,6 +345,8 @@ Day(s): TBD
 
 Campus: Online
 
+Notes: This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 488-302.
+
 Course Description: :doc:`comp300`
 
 COMP 305-1: Database Administration
@@ -404,6 +398,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Online
+
+Notes: This is an online class.  All lectures will be pre-recorded.  Students are asked to attend smaller-group online interactive discussions at regular intervals during the semester with possible times chosen to fit different groups' schedules.
 
 Course Description: :doc:`comp317`
 
@@ -521,6 +517,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Online
+
+Notes: This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
 
 Course Description: :doc:`comp348`
 
@@ -694,6 +692,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Online
+
+Notes: The Computer Science Seminar course and the Research Seminar course will meet on alternate weeks at the scheduled course time.
 
 Course Description: :doc:`comp397`
 
@@ -986,6 +986,8 @@ Day(s): TBD
 
 Campus: Online
 
+Notes: This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
+
 Course Description: :doc:`comp448`
 
 COMP 460-1: Algorithms & Complexity
@@ -1102,6 +1104,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Online
+
+Notes: This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 300-002.
 
 Course Description: :doc:`comp488`
 

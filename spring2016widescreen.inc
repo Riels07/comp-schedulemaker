@@ -29,11 +29,7 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    01W, George Thiruvathukal, 11:30 AM - 12:20 PM, MWF, Lakeshore, [#]_ 
-
-.. rubric:: Notes
-
-.. [#] Hi
+    01W, George Thiruvathukal, 11:30 AM - 12:20 PM, MWF, Lakeshore, N/A 
 
 :doc:`comp125`
 ----------------
@@ -42,13 +38,8 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1, Channah Naiman, 1:00 PM - 2:15 PM, TTr, Lakeshore, [#]_ 
-    2, Guy Bevente, 7:00 PM - 9:30 PM, Tr, Lakeshore, [#]_ 
-
-.. rubric:: Notes
-
-.. [#] Hello
-.. [#] woop
+    1, Channah Naiman, 1:00 PM - 2:15 PM, TTr, Lakeshore, N/A 
+    2, Guy Bevente, 7:00 PM - 9:30 PM, Tr, Lakeshore, N/A 
 
 :doc:`comp150`
 ----------------
@@ -57,13 +48,9 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1, Andrew N Harrington, 2:30 PM - 4:00 PM, T, Lakeshore, [#]_ 
+    1, Andrew N Harrington, 2:30 PM - 4:00 PM, T, Lakeshore, N/A 
     2, TBD, 7:00 PM - 9:30 PM, W, Lakeshore, N/A 
     3, Heather E. Wheeler, 12:10 PM - 1:25 PM, MW, Lakeshore, N/A 
-
-.. rubric:: Notes
-
-.. [#] go away
 
 :doc:`comp163`
 ----------------
@@ -130,7 +117,11 @@ Undergraduate Courses
     :widths: 10, 175, 75, 30, 50, 50
 
     1, Channah Naiman, 4:15 PM - 6:45 PM, W, Water Tower, N/A 
-    2, Channah Naiman, TBD, TBD, Online, N/A 
+    2, Channah Naiman, TBD, TBD, Online, [#]_ 
+
+.. rubric:: Notes
+
+.. [#] This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 488-302.
 
 :doc:`comp305`
 ----------------
@@ -166,8 +157,12 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1, Matthew Paul Butcher, TBD, TBD, Online, N/A 
+    1, Matthew Paul Butcher, TBD, TBD, Online, [#]_ 
     01W, Roxanne Schwab, 7:00 PM - 9:30 PM, M, Lakeshore, N/A 
+
+.. rubric:: Notes
+
+.. [#] This is an online class.  All lectures will be pre-recorded.  Students are asked to attend smaller-group online interactive discussions at regular intervals during the semester with possible times chosen to fit different groups' schedules.
 
 :doc:`comp319`
 ----------------
@@ -231,7 +226,11 @@ Undergraduate Courses
     :widths: 10, 175, 75, 30, 50, 50
 
     1, Corby Schmitz, 5:30 PM - 8:00 PM, F, Water Tower, N/A 
-    2, Corby Schmitz, TBD, TBD, Online, N/A 
+    2, Corby Schmitz, TBD, TBD, Online, [#]_ 
+
+.. rubric:: Notes
+
+.. [#] This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
 
 :doc:`comp353`
 ----------------
@@ -324,7 +323,11 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    8, Mark Albert, TBD, TBD, Online, N/A 
+    8, Mark Albert, TBD, TBD, Online, [#]_ 
+
+.. rubric:: Notes
+
+.. [#] The Computer Science Seminar course and the Research Seminar course will meet on alternate weeks at the scheduled course time.
 
 :doc:`comp398`
 ----------------
@@ -423,7 +426,11 @@ Graduate Courses
     :widths: 10, 175, 75, 30, 50, 50
 
     1, Corby Schmitz, 5:30 PM - 8:00 PM, F, Water Tower, N/A 
-    2, Corby Schmitz, TBD, TBD, Online, N/A 
+    2, Corby Schmitz, TBD, TBD, Online, [#]_ 
+
+.. rubric:: Notes
+
+.. [#] This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
 
 :doc:`comp460`
 ----------------
@@ -488,11 +495,15 @@ Graduate Courses
 
     7, Computer Science Topics, TBD, 7:00 PM - 9:30 PM, M, Lakeshore, N/A 
     301, Computer Science Topics, Channah Naiman, 4:15 PM - 6:45 PM, W, Water Tower, N/A 
-    302, Computer Science Topics, Channah Naiman, TBD, TBD, Online, N/A 
+    302, Computer Science Topics, Channah Naiman, TBD, TBD, Online, [#]_ 
     305, Computer Science Topics, Peter L Dordal, 4:15 PM - 6:45 PM, T, Water Tower, N/A 
     340, Computer Science Topics, Thomas Yarrish, 7:00 PM - 9:30 PM, W, Water Tower, N/A 
     383, Computer Science Topics, Heather E. Wheeler, 2:45 PM - 4:05 PM, MW, Lakeshore, N/A 
     402, Computer Science Topics, Nicholas J Hayward, 4:15 PM - 6:45 PM, W, Water Tower, N/A 
+
+.. rubric:: Notes
+
+.. [#] This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 300-002.
 
 :doc:`comp490`
 ----------------
