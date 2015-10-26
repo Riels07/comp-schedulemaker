@@ -1,5 +1,5 @@
 SUBJECT,CATALOG NUMBER,SECTION,COURSE TITLE,INSTRUCTOR,CLASS CAMPUS,CLASS LOCATION,SESSION,CLASS MEETING PATTERN,START TIME,END TIME,NOTES
-COMP,111,01W,History of Computing,"Thiruvathukal,George",LSC,LSC,1,MWF,11:30:00 AM,12:20:00 PM,This is a writing Intenxive Course. This course is blended/online (33%). MW meetings are on-campus and F meetings are linline and asynchronous. This course is restricted to undergraduate sutdents. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,111,01W,History of Computing,"Thiruvathukal,George",LSC,LSC,1,MWF,11:30:00 AM,12:20:00 PM,This is a writing Intensive Course. This course is blended/online (33%). MW meetings are on-campus and F meetings are linline and asynchronous. This course is restricted to undergraduate sutdents. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 COMP,125,1,Visual Information Processing,"Naiman,Channah",LSC,LSC,1,TTr,1:00:00 PM,2:15:00 PM,This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 COMP,125,2,Visual Information Processing,"Bevente,Guy",LSC,LSC,1,Tr,7:00:00 PM,9:30:00 PM,This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 COMP,150,1,Introduction to Computing,"Harrington,Andrew N",LSC,LSC,1,T,2:30:00 PM,4:00:00 PM,"This class has run successfully both face to face and online, with the same content. This blended format takes advantage of face-to-face in initially getting to know each other, getting the class going, finding partners, and getting direct help with any online technology. Later, since the class is flipped, and most all interaction is help on your individual computer work, help can come online, either in part of regular class time or at varied times convenient to you and the instructor. We will use software to share screens online. A quiet place is important for online help, with a computer that you have access to having a good Internet speed and with the ability to talk and listen online. This course is restricted to undergraduate students. Graduate Students wishing to enroll in a section of this course should contact their departmental graduate advisor."
@@ -7,97 +7,97 @@ COMP,150,2,Introduction to Computing,,LSC,LSC,1,W,7:00:00 PM,9:30:00 PM,This cou
 COMP,150,3,Introduction to Computing,"Wheeler,Heather E.",LSC,LSC,1,MW,12:10:00 PM,1:25:00 PM,This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 COMP,163,1,Discrete Structures,,LSC,LSC,1,MW,2:45:00 PM,4:00:00 PM,This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 COMP,163,2,Discrete Structures,,LSC,LSC,1,MW,4:15:00 PM,5:30:00 PM,This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
-COMP,170,1,Introduction to Object-Oriented Programming,"Yacobellis,Robert",LSC,LSC,1,TTr,10:00:00 AM,11:15:00 AM,
-COMP,170,2,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,MW,10:25:00 AM,11:40:00 AM,
-COMP,170,3,Introduction to Object-Oriented Programming,"Saenz,Maria Del Carmen",LSC,LSC,1,T,6:00:00 PM,8:30:00 PM,
-COMP,170,4,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,MW,12:10:00 PM,1:25:00 PM,
-COMP,170,01L,Introduction to Object-Oriented Programming,"Yacobellis,Robert",LSC,LSC,1,TTr,11:30:00 AM,11:55:00 AM,
-COMP,170,02L,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,F,10:25:00 AM,11:15:00 AM,
-COMP,170,03L,Introduction to Object-Oriented Programming,"Saenz,Maria Del Carmen",LSC,LSC,1,T,8:30:00 PM,9:20:00 PM,
-COMP,170,04L,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,F,12:35:00 PM,1:25:00 PM,
-COMP,250,01W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",LSC,LSC,1,MW,2:45:00 PM,4:00:00 PM,
-COMP,250,02W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
-COMP,264,1,Introduction to Computer Systems,"Greenberg,Ronald I",LSC,LSC,1,MWF,9:20:00 AM,10:10:00 AM,
-COMP,271,1,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,TTr,2:30:00 PM,3:45:00 PM,
-COMP,271,2,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,W,4:15:00 PM,6:45:00 PM,
-COMP,271,01L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,TTr,3:45:00 PM,4:05:00 PM,
-COMP,271,02L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,W,7:00:00 PM,7:50:00 PM,
-COMP,300,1,Data Warehousing and Data Mining,"Naiman,Channah",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,
+COMP,170,1,Introduction to Object-Oriented Programming,"Yacobellis,Robert",LSC,LSC,1,TTr,10:00:00 AM,11:15:00 AM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,170,2,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,MW,10:25:00 AM,11:40:00 AM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002(Lecutre) will be automatticaly enrolled in COMP 170-02L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,170,3,Introduction to Object-Oriented Programming,"Saenz,Maria Del Carmen",LSC,LSC,1,T,6:00:00 PM,8:30:00 PM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-003(Lecture) will be automatically enrolled in COMP 170-03L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,170,4,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,MW,12:10:00 PM,1:25:00 PM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004(Lecture) will be automatically enrolled in COMP 170-04L(Lab). This course is resticted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,170,01L,Introduction to Object-Oriented Programming,"Yacobellis,Robert",LSC,LSC,1,TTr,11:30:00 AM,11:55:00 AM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,170,02L,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,F,10:25:00 AM,11:15:00 AM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002 (Lecture) will be automatically enrolled in Comp 170-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,170,03L,Introduction to Object-Oriented Programming,"Saenz,Maria Del Carmen",LSC,LSC,1,T,8:30:00 PM,9:20:00 PM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-003 (Lecture) will be automatically enrolled in Comp 170-03L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,170,04L,Introduction to Object-Oriented Programming,"Dligach,Dmitriy",LSC,LSC,1,F,12:35:00 PM,1:25:00 PM,This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004 (Lecture) will be automatically enrolled in Comp 170-04L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,250,01W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",LSC,LSC,1,MW,2:45:00 PM,4:00:00 PM,This is a writing intensive course. This class is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,250,02W,Introduction to Scientific and Technical Communication,"Schwab,Roxanne",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,This is a writing intensive course. This class is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,264,1,Introduction to Computer Systems,"Greenberg,Ronald I",LSC,LSC,1,MWF,9:20:00 AM,10:10:00 AM,This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,271,1,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,TTr,2:30:00 PM,3:45:00 PM,Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,271,2,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,W,4:15:00 PM,6:45:00 PM,Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,271,01L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,TTr,3:45:00 PM,4:05:00 PM,Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,271,02L,Data Structures: Algorithms and Applications,"Putonti,Catherine",LSC,LSC,1,W,7:00:00 PM,7:50:00 PM,Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+COMP,300,1,Data Warehousing and Data Mining,"Naiman,Channah",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,Combined with COMP 488-301.
 COMP,300,2,Data Warehousing and Data Mining,"Naiman,Channah",ONLN,ONLN,1,,,,This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 488-302.
-COMP,305,1,Database Administration,"Dordal,Peter L",WTC,WTC,1,T,4:15:00 PM,6:45:00 PM,
-COMP,312,01E,Open Source Computing,,WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,
+COMP,305,1,Database Administration,"Dordal,Peter L",WTC,WTC,1,T,4:15:00 PM,6:45:00 PM,Combined with COMP 488-305.
+COMP,312,01E,Open Source Computing,,WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Combined with COMP 412-001.
 COMP,313,1,Intermediate Object-Oriented Development,"Yacobellis,Robert",LSC,LSC,1,TTr,1:00:00 PM,2:15:00 PM,
 COMP,317,1,"Social, Legal, and Ethical Issues in Computing","Butcher,Matthew Paul",ONLN,ONLN,1,,,,This is an online class.  All lectures will be pre-recorded.  Students are asked to attend smaller-group online interactive discussions at regular intervals during the semester with possible times chosen to fit different groups' schedules.
-COMP,317,01W,"Social, Legal, and Ethical Issues in Computing","Schwab,Roxanne",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
+COMP,317,01W,"Social, Legal, and Ethical Issues in Computing","Schwab,Roxanne",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,This is a writing intensive class. This class is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 COMP,319,1,Introduction to UNIX,"Gahete Diaz,Jose Luis",LSC,LSC,1,F,1:40:00 PM,2:30:00 PM,
-COMP,324,1,Client-Side Web Development,"Hayward,Nicholas J",WTC,WTC,1,M,4:15:00 PM,6:45:00 PM,
+COMP,324,1,Client-Side Web Development,"Hayward,Nicholas J",WTC,WTC,1,M,4:15:00 PM,6:45:00 PM,Combined with COMP 424-001.
 COMP,330,1,Software Engineering,"Thiruvathukal,George",LSC,LSC,1,Tr,6:00:00 PM,8:30:00 PM,
 COMP,339,1,Distributed Programming,"Kaylor,Sarah",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
-COMP,340,1,Computer Forensics,"Yarrish,Thomas",WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,
-COMP,341,1,Human-Computer Interaction,"Hayward,Nicholas J",WTC,WTC,1,Tr,7:00:00 PM,9:30:00 PM,
-COMP,348,1,Network Security,"Schmitz,Corby",WTC,WTC,1,F,5:30:00 PM,8:00:00 PM,
+COMP,340,1,Computer Forensics,"Yarrish,Thomas",WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,Combined with COMP 488-340.
+COMP,341,1,Human-Computer Interaction,"Hayward,Nicholas J",WTC,WTC,1,Tr,7:00:00 PM,9:30:00 PM,Combined with COMP 441-001.
+COMP,348,1,Network Security,"Schmitz,Corby",WTC,WTC,1,F,5:30:00 PM,8:00:00 PM,Combined with COMP 488-001
 COMP,348,2,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,,This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
 COMP,353,1,Database Programming,"Sekharan,Chandra N",LSC,LSC,1,M,4:15:00 PM,6:45:00 PM,
-COMP,363,1,Desgn and Analysis Computer Algorithms,"Albert,Mark",LSC,LSC,1,Tr,2:45:00 PM,5:15:00 PM,
+COMP,363,1,Desgn and Analysis Computer Algorithms,"Albert,Mark",LSC,LSC,1,Tr,2:45:00 PM,5:15:00 PM,This course is restricted toundergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 COMP,372,1,Programming Languages,"Laufer,Konstantin",LSC,LSC,1,W,2:45:00 PM,5:15:00 PM,
-COMP,373,1,"Objects, Frameworks, and Patterns","Zewdie,Berhane",WTC,WTC,1,T,7:00:00 PM,9:30:00 PM,
-COMP,377,1,IT Project Management,"Weisert,Conrad",WTC,WTC,1,F,4:15:00 PM,6:45:00 PM,
-COMP,378,1,Artificial Intelligence,"Weisert,Conrad",LSC,LSC,1,M,2:45:00 PM,5:15:00 PM,
-COMP,383,1,Computational Biology,"Wheeler,Heather E.",LSC,LSC,1,MW,2:45:00 PM,4:05:00 PM,
+COMP,373,1,"Objects, Frameworks, and Patterns","Zewdie,Berhane",WTC,WTC,1,T,7:00:00 PM,9:30:00 PM,Combined with COMP 473-001
+COMP,377,1,IT Project Management,"Weisert,Conrad",WTC,WTC,1,F,4:15:00 PM,6:45:00 PM,Combined with COMP 477-001.
+COMP,378,1,Artificial Intelligence,"Weisert,Conrad",LSC,LSC,1,M,2:45:00 PM,5:15:00 PM,Combined with COMP 484-001.
+COMP,383,1,Computational Biology,"Wheeler,Heather E.",LSC,LSC,1,MW,2:45:00 PM,4:05:00 PM,Combined with COMP 488-383.
 COMP,388,4,Topics in Computers Science,"Harrington,Andrew N",WTC,WTC,8W1,M,4:15:00 PM,8:15:00 PM,"Foundations of Computer Science I.  Eight Week-First Session.  This section is restricted to students with undergraduate degrees.  Department Consent required, and then a Computer Science Department staff member will enroll you.  FIRST CLASS EARLY:  Friday before other classes start:  Friday, January 15!  And then on for the next seven weeks, ending before vacation week.  Classes meet from 4:15 pm - 8:15 pm on Fri, Jan 15, and Fri, Jan 22.  And then, 4:15 pm- 8:15 pm for the next 6 Mondays:  Jan 25, Feb 1, Feb 8, Feb 15, Feb 22, Feb 29.  Labs meet on Wednesdays, 4:15 pm - 6:30 pm:  Jan 20, Jan 27, Feb 3, Feb 10, Feb 17, Feb 24, Mar 2."
 COMP,388,5,Topics in Computers Science,"Dordal,Peter L",WTC,WTC,8W2,M,4:15:00 PM,8:15:00 PM,"Foundations of Computer Science II.  Eight Week-Second Session.  This section is restricted to students with undergraduate degrees.  Department Consent required, and then a Computer Science Department staff member will enroll you.  Eight weeks after vacation, including two meetings in finals week.  Mondays, 4:15 pm -8:15 pm:  March 14, March 21, March 28, April 4, April 11, April 18, April 25, May 2.  Labs meet on Wednesdays, 4:15 pm - 6:30 pm:  March 16, March 23, March 30, April 6, April 13, April 20, April 27, May 4."
 COMP,388,6,Topics in Computers Science,"Gahete Diaz,Jose Luis",LSC,LSC,1,F,2:45:00 PM,4:00:00 PM,
-COMP,388,7,Topics in Computers Science,,LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
-COMP,391,01E,Internship in CS,"Greenberg,Ronald I",WTC,WTC,1,,,,
+COMP,388,7,Topics in Computers Science,,LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,Combined with COMP 488-007
+COMP,391,01E,Internship in CS,"Greenberg,Ronald I",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 COMP,397,8,Research Seminar,"Albert,Mark",ONLN,ONLN,1,,,,The Computer Science Seminar course and the Research Seminar course will meet on alternate weeks at the scheduled course time.
-COMP,398,01E,Independent Study,"Laufer,Konstantin",WTC,WTC,1,,,,
-COMP,398,02E,Independent Study,"Albert,Mark",WTC,WTC,1,,,,
-COMP,398,03E,Independent Study,"Dligach,Dmitriy",WTC,WTC,1,,,,
-COMP,398,04E,Independent Study,"Dordal,Peter L",WTC,WTC,1,,,,
-COMP,398,05E,Independent Study,"Greenberg,Ronald I",WTC,WTC,1,,,,
-COMP,398,06E,Independent Study,"Harrington,Andrew N",WTC,WTC,1,,,,
-COMP,398,07E,Independent Study,"Hayward,Nicholas J",WTC,WTC,1,,,,
-COMP,398,08E,Independent Study,"Honig,William",WTC,WTC,1,,,,
-COMP,398,09E,Independent Study,"Naiman,Channah",WTC,WTC,1,,,,
-COMP,398,10E,Independent Study,"Putonti,Catherine",WTC,WTC,1,,,,
-COMP,398,11E,Independent Study,"Sekharan,Chandra N",WTC,WTC,1,,,,
-COMP,398,12E,Independent Study,"Wheeler,Heather E.",WTC,WTC,1,,,,
-COMP,398,13E,Independent Study,"Yacobellis,Robert",WTC,WTC,1,,,,
-COMP,399,1,Computer Science Seminar,"Albert,Mark",LSC,LSC,1,T,11:30:00 AM,12:45:00 PM,
-COMP,412,1,Open Source Computing,,WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,
+COMP,398,01E,Independent Study,"Laufer,Konstantin",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,02E,Independent Study,"Albert,Mark",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,03E,Independent Study,"Dligach,Dmitriy",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,04E,Independent Study,"Dordal,Peter L",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,05E,Independent Study,"Greenberg,Ronald I",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,06E,Independent Study,"Harrington,Andrew N",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,07E,Independent Study,"Hayward,Nicholas J",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,08E,Independent Study,"Honig,William",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,09E,Independent Study,"Naiman,Channah",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,10E,Independent Study,"Putonti,Catherine",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,11E,Independent Study,"Sekharan,Chandra N",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,12E,Independent Study,"Wheeler,Heather E.",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,398,13E,Independent Study,"Yacobellis,Robert",WTC,WTC,1,,,,This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+COMP,399,1,Computer Science Seminar,"Albert,Mark",LSC,LSC,1,T,11:30:00 AM,12:45:00 PM,The Computer Science Seminar course and the Research Seminar course will meet on alternate weeks at the scheduled course time.
+COMP,412,1,Open Source Computing,,WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,Combined with COMP 312-01E
 COMP,413,1,Intermediate Object-Oriented Development,"Yacobellis,Robert",WTC,WTC,1,T,4:15:00 PM,6:45:00 PM,
 COMP,417,1,Social and Ethical Issues in Computing,"Dordal,Peter L",WTC,WTC,1,Tr,4:15:00 PM,6:45:00 PM,
-COMP,424,1,Client-Side Web Design,"Hayward,Nicholas J",WTC,WTC,1,M,4:15:00 PM,6:45:00 PM,
+COMP,424,1,Client-Side Web Design,"Hayward,Nicholas J",WTC,WTC,1,M,4:15:00 PM,6:45:00 PM,Combined with COMP 324-001
 COMP,439,1,Distributed Systems,"Kaylor,Sarah",LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
-COMP,441,1,Human-Computer Interface Design,"Hayward,Nicholas J",WTC,WTC,1,Tr,7:00:00 PM,9:30:00 PM,
-COMP,448,1,Network Security,"Schmitz,Corby",WTC,WTC,1,F,5:30:00 PM,8:00:00 PM,
+COMP,441,1,Human-Computer Interface Design,"Hayward,Nicholas J",WTC,WTC,1,Tr,7:00:00 PM,9:30:00 PM,Combined with COMP 341-001
+COMP,448,1,Network Security,"Schmitz,Corby",WTC,WTC,1,F,5:30:00 PM,8:00:00 PM,Combined with COMP 348-001
 COMP,448,2,Network Security,"Schmitz,Corby",ONLN,ONLN,1,,,,This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
 COMP,460,1,Algorithms & Complexity,"Sekharan,Chandra N",LSC,LSC,1,T,2:45:00 PM,5:15:00 PM,
-COMP,471,1,Thry of Programming Languages,"Laufer,Konstantin",LSC,LSC,1,W,2:45:00 PM,5:15:00 PM,
-COMP,473,1,Object-Oriented Programming,"Zewdie,Berhane",WTC,WTC,1,T,7:00:00 PM,9:30:00 PM,
+COMP,471,1,Thry of Programming Languages,"Laufer,Konstantin",LSC,LSC,1,W,2:45:00 PM,5:15:00 PM,Combined with COMP 372-001
+COMP,473,1,Object-Oriented Programming,"Zewdie,Berhane",WTC,WTC,1,T,7:00:00 PM,9:30:00 PM,Combined with COMP 373-001
 COMP,474,1,Software Engineering,,WTC,WTC,1,Tr,7:00:00 PM,9:30:00 PM,
-COMP,477,1,IT Project Management,"Weisert,Conrad",WTC,WTC,1,F,4:15:00 PM,6:45:00 PM,
+COMP,477,1,IT Project Management,"Weisert,Conrad",WTC,WTC,1,F,4:15:00 PM,6:45:00 PM,Combined with COMP 377-001
 COMP,484,1,Artificial Intelligence,"Weisert,Conrad",LSC,LSC,1,M,2:45:00 PM,5:15:00 PM,
 COMP,488,7,Computer Science Topics,,LSC,LSC,1,M,7:00:00 PM,9:30:00 PM,
-COMP,488,301,Computer Science Topics,"Naiman,Channah",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,
+COMP,488,301,Computer Science Topics,"Naiman,Channah",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,Combined with COMP 300-001
 COMP,488,302,Computer Science Topics,"Naiman,Channah",ONLN,ONLN,1,,,,This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 300-002.
-COMP,488,305,Computer Science Topics,"Dordal,Peter L",WTC,WTC,1,T,4:15:00 PM,6:45:00 PM,
-COMP,488,340,Computer Science Topics,"Yarrish,Thomas",WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,
+COMP,488,305,Computer Science Topics,"Dordal,Peter L",WTC,WTC,1,T,4:15:00 PM,6:45:00 PM,Combined with COMP 305-001
+COMP,488,340,Computer Science Topics,"Yarrish,Thomas",WTC,WTC,1,W,7:00:00 PM,9:30:00 PM,Combined with COMP 340-001
 COMP,488,383,Computer Science Topics,"Wheeler,Heather E.",LSC,LSC,1,MW,2:45:00 PM,4:05:00 PM,
-COMP,488,402,Computer Science Topics,"Hayward,Nicholas J",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,
-COMP,490,1,Independent Project,"Laufer,Konstantin",WTC,WTC,1,,,,
-COMP,490,2,Independent Project,"Albert,Mark",WTC,WTC,1,,,,
-COMP,490,3,Independent Project,"Dligach,Dmitriy",WTC,WTC,1,,,,
-COMP,490,4,Independent Project,"Dordal,Peter L",WTC,WTC,1,,,,
-COMP,490,5,Independent Project,"Greenberg,Ronald I",WTC,WTC,1,,,,
-COMP,490,6,Independent Project,"Harrington,Andrew N",WTC,WTC,1,,,,
-COMP,490,7,Independent Project,"Hayward,Nicholas J",WTC,WTC,1,,,,
-COMP,490,8,Independent Project,"Honig,William",WTC,WTC,1,,,,
-COMP,490,9,Independent Project,"Naiman,Channah",WTC,WTC,1,,,,
-COMP,490,10,Independent Project,"Putonti,Catherine",WTC,WTC,1,,,,
-COMP,490,11,Independent Project,"Sekharan,Chandra N",WTC,WTC,1,,,,
-COMP,490,12,Independent Project,"Wheeler,Heather E.",WTC,WTC,1,,,,
-COMP,490,13,Independent Project,"Yacobellis,Robert",WTC,WTC,1,,,,
-COMP,499,1,Internship,"Laufer,Konstantin",WTC,WTC,1,,,,
-COMP,605,1,Master of Science Study,"Laufer,Konstantin",WTC,WTC,1,,,,
+COMP,488,402,Computer Science Topics,"Hayward,Nicholas J",WTC,WTC,1,W,4:15:00 PM,6:45:00 PM,Combined with DIGH 402
+COMP,490,1,Independent Project,"Laufer,Konstantin",WTC,WTC,1,,,,Department Consent Required
+COMP,490,2,Independent Project,"Albert,Mark",WTC,WTC,1,,,,Department Consent Required
+COMP,490,3,Independent Project,"Dligach,Dmitriy",WTC,WTC,1,,,,Department Consent Required
+COMP,490,4,Independent Project,"Dordal,Peter L",WTC,WTC,1,,,,Department Consent Required
+COMP,490,5,Independent Project,"Greenberg,Ronald I",WTC,WTC,1,,,,Department Consent Required
+COMP,490,6,Independent Project,"Harrington,Andrew N",WTC,WTC,1,,,,Department Consent Required
+COMP,490,7,Independent Project,"Hayward,Nicholas J",WTC,WTC,1,,,,Department Consent Required
+COMP,490,8,Independent Project,"Honig,William",WTC,WTC,1,,,,Department Consent Required
+COMP,490,9,Independent Project,"Naiman,Channah",WTC,WTC,1,,,,Department Consent Required
+COMP,490,10,Independent Project,"Putonti,Catherine",WTC,WTC,1,,,,Department Consent Required
+COMP,490,11,Independent Project,"Sekharan,Chandra N",WTC,WTC,1,,,,Department Consent Required
+COMP,490,12,Independent Project,"Wheeler,Heather E.",WTC,WTC,1,,,,Department Consent Required
+COMP,490,13,Independent Project,"Yacobellis,Robert",WTC,WTC,1,,,,Department Consent Required
+COMP,499,1,Internship,"Laufer,Konstantin",WTC,WTC,1,,,,This course involves an internship experience. Department Consent Required
+COMP,605,1,Master of Science Study,"Laufer,Konstantin",WTC,WTC,1,,,,Department Consent Required
 Prepared on: 09/08/15,,,,,,,,,,,

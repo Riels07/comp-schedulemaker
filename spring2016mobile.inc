@@ -33,6 +33,8 @@ Day(s): Monday Wednesday Friday
 
 Campus: Lakeshore
 
+Notes: This is a writing Intensive Course. This course is blended/online (33%). MW meetings are on-campus and F meetings are linline and asynchronous. This course is restricted to undergraduate sutdents. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp111`
 
 COMP 125-1: Visual Information Processing
@@ -45,6 +47,8 @@ Time: 1:00 PM - 2:15 PM
 Day(s): Tuesday Thursday 
 
 Campus: Lakeshore
+
+Notes: This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp125`
 
@@ -59,6 +63,8 @@ Day(s): Thursday
 
 Campus: Lakeshore
 
+Notes: This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp125`
 
 COMP 150-1: Introduction to Computing
@@ -71,6 +77,8 @@ Time: 2:30 PM - 4:00 PM
 Day(s): Tuesday 
 
 Campus: Lakeshore
+
+Notes: This class has run successfully both face to face and online, with the same content. This blended format takes advantage of face-to-face in initially getting to know each other, getting the class going, finding partners, and getting direct help with any online technology. Later, since the class is flipped, and most all interaction is help on your individual computer work, help can come online, either in part of regular class time or at varied times convenient to you and the instructor. We will use software to share screens online. A quiet place is important for online help, with a computer that you have access to having a good Internet speed and with the ability to talk and listen online. This course is restricted to undergraduate students. Graduate Students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp150`
 
@@ -85,6 +93,8 @@ Day(s): Wednesday
 
 Campus: Lakeshore
 
+Notes: This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp150`
 
 COMP 150-3: Introduction to Computing
@@ -97,6 +107,8 @@ Time: 12:10 PM - 1:25 PM
 Day(s): Monday Wednesday 
 
 Campus: Lakeshore
+
+Notes: This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp150`
 
@@ -111,6 +123,8 @@ Day(s): Monday Wednesday
 
 Campus: Lakeshore
 
+Notes: This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp163`
 
 COMP 163-2: Discrete Structures
@@ -123,6 +137,8 @@ Time: 4:15 PM - 5:30 PM
 Day(s): Monday Wednesday 
 
 Campus: Lakeshore
+
+Notes: This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
 
 Course Description: :doc:`comp163`
 
@@ -137,6 +153,8 @@ Day(s): Tuesday Thursday
 
 Campus: Lakeshore
 
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp170`
 
 COMP 170-2: Introduction to Object-Oriented Programming
@@ -149,6 +167,8 @@ Time: 10:25 AM - 11:40 AM
 Day(s): Monday Wednesday 
 
 Campus: Lakeshore
+
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002(Lecutre) will be automatticaly enrolled in COMP 170-02L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -163,6 +183,8 @@ Day(s): Tuesday
 
 Campus: Lakeshore
 
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-003(Lecture) will be automatically enrolled in COMP 170-03L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp170`
 
 COMP 170-4: Introduction to Object-Oriented Programming
@@ -175,6 +197,8 @@ Time: 12:10 PM - 1:25 PM
 Day(s): Monday Wednesday 
 
 Campus: Lakeshore
+
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004(Lecture) will be automatically enrolled in COMP 170-04L(Lab). This course is resticted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -189,6 +213,8 @@ Day(s): Tuesday Thursday
 
 Campus: Lakeshore
 
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp170`
 
 COMP 170-02L: Introduction to Object-Oriented Programming
@@ -201,6 +227,8 @@ Time: 10:25 AM - 11:15 AM
 Day(s): Friday 
 
 Campus: Lakeshore
+
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002 (Lecture) will be automatically enrolled in Comp 170-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -215,6 +243,8 @@ Day(s): Tuesday
 
 Campus: Lakeshore
 
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-003 (Lecture) will be automatically enrolled in Comp 170-03L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp170`
 
 COMP 170-04L: Introduction to Object-Oriented Programming
@@ -227,6 +257,8 @@ Time: 12:35 PM - 1:25 PM
 Day(s): Friday 
 
 Campus: Lakeshore
+
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004 (Lecture) will be automatically enrolled in Comp 170-04L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -241,6 +273,8 @@ Day(s): Monday Wednesday
 
 Campus: Lakeshore
 
+Notes: This is a writing intensive course. This class is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp250`
 
 COMP 250-02W: Introduction to Scientific and Technical Communication
@@ -253,6 +287,8 @@ Time: 7:00 PM - 9:30 PM
 Day(s): Monday 
 
 Campus: Lakeshore
+
+Notes: This is a writing intensive course. This class is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp250`
 
@@ -267,6 +303,8 @@ Day(s): Monday Wednesday Friday
 
 Campus: Lakeshore
 
+Notes: This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp264`
 
 COMP 271-1: Data Structures: Algorithms and Applications
@@ -279,6 +317,8 @@ Time: 2:30 PM - 3:45 PM
 Day(s): Tuesday Thursday 
 
 Campus: Lakeshore
+
+Notes: Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp271`
 
@@ -293,6 +333,8 @@ Day(s): Wednesday
 
 Campus: Lakeshore
 
+Notes: Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp271`
 
 COMP 271-01L: Data Structures: Algorithms and Applications
@@ -305,6 +347,8 @@ Time: 3:45 PM - 4:05 PM
 Day(s): Tuesday Thursday 
 
 Campus: Lakeshore
+
+Notes: Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp271`
 
@@ -319,6 +363,8 @@ Day(s): Wednesday
 
 Campus: Lakeshore
 
+Notes: Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp271`
 
 COMP 300-1: Data Warehousing and Data Mining
@@ -331,6 +377,8 @@ Time: 4:15 PM - 6:45 PM
 Day(s): Wednesday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 488-301.
 
 Course Description: :doc:`comp300`
 
@@ -360,6 +408,8 @@ Day(s): Tuesday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 488-305.
+
 Course Description: :doc:`comp305`
 
 COMP 312-01E: Open Source Computing
@@ -372,6 +422,8 @@ Time: 7:00 PM - 9:30 PM
 Day(s): Wednesday 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Combined with COMP 412-001.
 
 Course Description: :doc:`comp312`
 
@@ -414,6 +466,8 @@ Day(s): Monday
 
 Campus: Lakeshore
 
+Notes: This is a writing intensive class. This class is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp317`
 
 COMP 319-1: Introduction to UNIX
@@ -439,6 +493,8 @@ Time: 4:15 PM - 6:45 PM
 Day(s): Monday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 424-001.
 
 Course Description: :doc:`comp324`
 
@@ -479,6 +535,8 @@ Day(s): Wednesday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 488-340.
+
 Course Description: :doc:`comp340`
 
 COMP 341-1: Human-Computer Interaction
@@ -492,6 +550,8 @@ Day(s): Thursday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 441-001.
+
 Course Description: :doc:`comp341`
 
 COMP 348-1: Network Security
@@ -504,6 +564,8 @@ Time: 5:30 PM - 8:00 PM
 Day(s): Friday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 488-001
 
 Course Description: :doc:`comp348`
 
@@ -546,6 +608,8 @@ Day(s): Thursday
 
 Campus: Lakeshore
 
+Notes: This course is restricted toundergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+
 Course Description: :doc:`comp363`
 
 COMP 372-1: Programming Languages
@@ -572,6 +636,8 @@ Day(s): Tuesday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 473-001
+
 Course Description: :doc:`comp373`
 
 COMP 377-1: IT Project Management
@@ -584,6 +650,8 @@ Time: 4:15 PM - 6:45 PM
 Day(s): Friday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 477-001.
 
 Course Description: :doc:`comp377`
 
@@ -598,6 +666,8 @@ Day(s): Monday
 
 Campus: Lakeshore
 
+Notes: Combined with COMP 484-001.
+
 Course Description: :doc:`comp378`
 
 COMP 383-1: Computational Biology
@@ -610,6 +680,8 @@ Time: 2:45 PM - 4:05 PM
 Day(s): Monday Wednesday 
 
 Campus: Lakeshore
+
+Notes: Combined with COMP 488-383.
 
 Course Description: :doc:`comp383`
 
@@ -626,6 +698,8 @@ Day(s): See Note
 
 Campus: Water Tower
 
+Notes: Foundations of Computer Science I.  Eight Week-First Session.  This section is restricted to students with undergraduate degrees.  Department Consent required, and then a Computer Science Department staff member will enroll you.  FIRST CLASS EARLY:  Friday before other classes start:  Friday, January 15!  And then on for the next seven weeks, ending before vacation week.  Classes meet from 4:15 pm - 8:15 pm on Fri, Jan 15, and Fri, Jan 22.  And then, 4:15 pm- 8:15 pm for the next 6 Mondays:  Jan 25, Feb 1, Feb 8, Feb 15, Feb 22, Feb 29.  Labs meet on Wednesdays, 4:15 pm - 6:30 pm:  Jan 20, Jan 27, Feb 3, Feb 10, Feb 17, Feb 24, Mar 2.
+
 Course Description: :doc:`comp388`
 
 COMP 388-5: Topics in Computers Science
@@ -640,6 +714,8 @@ Time: See Note
 Day(s): See Note 
 
 Campus: Water Tower
+
+Notes: Foundations of Computer Science II.  Eight Week-Second Session.  This section is restricted to students with undergraduate degrees.  Department Consent required, and then a Computer Science Department staff member will enroll you.  Eight weeks after vacation, including two meetings in finals week.  Mondays, 4:15 pm -8:15 pm:  March 14, March 21, March 28, April 4, April 11, April 18, April 25, May 2.  Labs meet on Wednesdays, 4:15 pm - 6:30 pm:  March 16, March 23, March 30, April 6, April 13, April 20, April 27, May 4.
 
 Course Description: :doc:`comp388`
 
@@ -667,6 +743,8 @@ Day(s): Monday
 
 Campus: Lakeshore
 
+Notes: Combined with COMP 488-007
+
 Course Description: :doc:`comp388`
 
 COMP 391-01E: Internship in CS
@@ -679,6 +757,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 
 Course Description: :doc:`comp391`
 
@@ -708,6 +788,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+
 Course Description: :doc:`comp398`
 
 COMP 398-02E: Independent Study
@@ -720,6 +802,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 
 Course Description: :doc:`comp398`
 
@@ -734,6 +818,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+
 Course Description: :doc:`comp398`
 
 COMP 398-04E: Independent Study
@@ -746,6 +832,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 
 Course Description: :doc:`comp398`
 
@@ -760,6 +848,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+
 Course Description: :doc:`comp398`
 
 COMP 398-06E: Independent Study
@@ -772,6 +862,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 
 Course Description: :doc:`comp398`
 
@@ -786,6 +878,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+
 Course Description: :doc:`comp398`
 
 COMP 398-08E: Independent Study
@@ -798,6 +892,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 
 Course Description: :doc:`comp398`
 
@@ -812,6 +908,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+
 Course Description: :doc:`comp398`
 
 COMP 398-10E: Independent Study
@@ -824,6 +922,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 
 Course Description: :doc:`comp398`
 
@@ -838,6 +938,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+
 Course Description: :doc:`comp398`
 
 COMP 398-12E: Independent Study
@@ -850,6 +952,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
 
 Course Description: :doc:`comp398`
 
@@ -864,6 +968,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This class satisfies the Engaged Learning requirement in the Undergraduate Research category. Department consent required.
+
 Course Description: :doc:`comp398`
 
 COMP 399-1: Computer Science Seminar
@@ -876,6 +982,8 @@ Time: 11:30 AM - 12:45 PM
 Day(s): Tuesday 
 
 Campus: Lakeshore
+
+Notes: The Computer Science Seminar course and the Research Seminar course will meet on alternate weeks at the scheduled course time.
 
 Course Description: :doc:`comp399`
 
@@ -894,6 +1002,8 @@ Time: 7:00 PM - 9:30 PM
 Day(s): Wednesday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 312-01E
 
 Course Description: :doc:`comp412`
 
@@ -934,6 +1044,8 @@ Day(s): Monday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 324-001
+
 Course Description: :doc:`comp424`
 
 COMP 439-1: Distributed Systems
@@ -960,6 +1072,8 @@ Day(s): Thursday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 341-001
+
 Course Description: :doc:`comp441`
 
 COMP 448-1: Network Security
@@ -972,6 +1086,8 @@ Time: 5:30 PM - 8:00 PM
 Day(s): Friday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 348-001
 
 Course Description: :doc:`comp448`
 
@@ -1014,6 +1130,8 @@ Day(s): Wednesday
 
 Campus: Lakeshore
 
+Notes: Combined with COMP 372-001
+
 Course Description: :doc:`comp471`
 
 COMP 473-1: Object-Oriented Programming
@@ -1026,6 +1144,8 @@ Time: 7:00 PM - 9:30 PM
 Day(s): Tuesday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 373-001
 
 Course Description: :doc:`comp473`
 
@@ -1052,6 +1172,8 @@ Time: 4:15 PM - 6:45 PM
 Day(s): Friday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 377-001
 
 Course Description: :doc:`comp477`
 
@@ -1092,6 +1214,8 @@ Day(s): Wednesday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 300-001
+
 Course Description: :doc:`comp488`
 
 COMP 488-302: Computer Science Topics
@@ -1120,6 +1244,8 @@ Day(s): Tuesday
 
 Campus: Water Tower
 
+Notes: Combined with COMP 305-001
+
 Course Description: :doc:`comp488`
 
 COMP 488-340: Computer Science Topics
@@ -1132,6 +1258,8 @@ Time: 7:00 PM - 9:30 PM
 Day(s): Wednesday 
 
 Campus: Water Tower
+
+Notes: Combined with COMP 340-001
 
 Course Description: :doc:`comp488`
 
@@ -1159,6 +1287,8 @@ Day(s): Wednesday
 
 Campus: Water Tower
 
+Notes: Combined with DIGH 402
+
 Course Description: :doc:`comp488`
 
 COMP 490-1: Independent Project
@@ -1171,6 +1301,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp490`
 
@@ -1185,6 +1317,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: Department Consent Required
+
 Course Description: :doc:`comp490`
 
 COMP 490-3: Independent Project
@@ -1197,6 +1331,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp490`
 
@@ -1211,6 +1347,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: Department Consent Required
+
 Course Description: :doc:`comp490`
 
 COMP 490-5: Independent Project
@@ -1223,6 +1361,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp490`
 
@@ -1237,6 +1377,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: Department Consent Required
+
 Course Description: :doc:`comp490`
 
 COMP 490-7: Independent Project
@@ -1249,6 +1391,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp490`
 
@@ -1263,6 +1407,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: Department Consent Required
+
 Course Description: :doc:`comp490`
 
 COMP 490-9: Independent Project
@@ -1275,6 +1421,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp490`
 
@@ -1289,6 +1437,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: Department Consent Required
+
 Course Description: :doc:`comp490`
 
 COMP 490-11: Independent Project
@@ -1301,6 +1451,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp490`
 
@@ -1315,6 +1467,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: Department Consent Required
+
 Course Description: :doc:`comp490`
 
 COMP 490-13: Independent Project
@@ -1327,6 +1481,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp490`
 
@@ -1341,6 +1497,8 @@ Day(s): TBD
 
 Campus: Water Tower
 
+Notes: This course involves an internship experience. Department Consent Required
+
 Course Description: :doc:`comp499`
 
 COMP 605-1: Master of Science Study
@@ -1353,6 +1511,8 @@ Time: TBD
 Day(s): TBD 
 
 Campus: Water Tower
+
+Notes: Department Consent Required
 
 Course Description: :doc:`comp605`
 
