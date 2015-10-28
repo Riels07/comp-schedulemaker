@@ -55,7 +55,7 @@ Course Description: :doc:`comp125`
 COMP 125-2: Visual Information Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructor: Guy Bevente 
+Instructor: Staff 
 
 Time: 7:00 PM - 9:30 PM
 
@@ -115,7 +115,7 @@ Course Description: :doc:`comp150`
 COMP 163-1: Discrete Structures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructor: TBD 
+Instructor: Tori Noquez 
 
 Time: 2:45 PM - 4:00 PM
 
@@ -123,14 +123,14 @@ Day(s): Monday Wednesday
 
 Campus: Lakeshore
 
-Notes: This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp163`
 
 COMP 163-2: Discrete Structures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructor: TBD 
+Instructor: Tori Noquez 
 
 Time: 4:15 PM - 5:30 PM
 
@@ -138,7 +138,7 @@ Day(s): Monday Wednesday
 
 Campus: Lakeshore
 
-Notes: This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
+Notes: This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
 
 Course Description: :doc:`comp163`
 
@@ -415,7 +415,7 @@ Course Description: :doc:`comp305`
 COMP 312-01E: Open Source Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructor: TBD 
+Instructor: Matt Bone 
 
 Time: 7:00 PM - 9:30 PM
 
@@ -460,9 +460,9 @@ COMP 317-01W: Social, Legal, and Ethical Issues in Computing
 
 Instructor: Roxanne Schwab 
 
-Time: 7:00 PM - 9:30 PM
+Time: 6:00 PM - 8:30 PM
 
-Day(s): Monday 
+Day(s): Wednesday 
 
 Campus: Lakeshore
 
@@ -511,19 +511,6 @@ Campus: Lakeshore
 
 Course Description: :doc:`comp330`
 
-COMP 339-1: Distributed Programming
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Instructor: Sarah Kaylor 
-
-Time: 7:00 PM - 9:30 PM
-
-Day(s): Monday 
-
-Campus: Lakeshore
-
-Course Description: :doc:`comp339`
-
 COMP 340-1: Computer Forensics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -535,7 +522,7 @@ Day(s): Wednesday
 
 Campus: Water Tower
 
-Notes: Combined with COMP 488-340.
+Notes: This class is offered in a blended format, with about one to two thirds of class sessions to be held online. The first class meets on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. Combined with COMP 488-340.
 
 Course Description: :doc:`comp340`
 
@@ -995,7 +982,7 @@ Graduate Courses
 COMP 412-1: Open Source Computing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructor: TBD 
+Instructor: Matt Bone 
 
 Time: 7:00 PM - 9:30 PM
 
@@ -1047,19 +1034,6 @@ Campus: Water Tower
 Notes: Combined with COMP 324-001
 
 Course Description: :doc:`comp424`
-
-COMP 439-1: Distributed Systems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Instructor: Sarah Kaylor 
-
-Time: 7:00 PM - 9:30 PM
-
-Day(s): Monday 
-
-Campus: Lakeshore
-
-Course Description: :doc:`comp439`
 
 COMP 441-1: Human-Computer Interface Design
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1152,7 +1126,7 @@ Course Description: :doc:`comp473`
 COMP 474-1: Software Engineering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instructor: TBD 
+Instructor: Chris Stone 
 
 Time: 7:00 PM - 9:30 PM
 
@@ -1259,7 +1233,7 @@ Day(s): Wednesday
 
 Campus: Water Tower
 
-Notes: Combined with COMP 340-001
+Notes: This class is offered in a blended format, with about one to two thirds of class sessions to be held online. The first class meets on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. Combined with COMP 340-001
 
 Course Description: :doc:`comp488`
 

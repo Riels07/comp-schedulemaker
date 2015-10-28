@@ -43,7 +43,7 @@ Undergraduate Courses
     :widths: 10, 175, 75, 30, 50, 50
 
     1, Channah Naiman, 1:00 PM - 2:15 PM, TTr, Lakeshore, [#]_ 
-    2, Guy Bevente, 7:00 PM - 9:30 PM, Tr, Lakeshore, [#]_ 
+    2, Staff , 7:00 PM - 9:30 PM, Tr, Lakeshore, [#]_ 
 
 .. rubric:: Notes
 
@@ -74,13 +74,13 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1, TBD, 2:45 PM - 4:00 PM, MW, Lakeshore, [#]_ 
-    2, TBD, 4:15 PM - 5:30 PM, MW, Lakeshore, [#]_ 
+    1,  Tori Noquez, 2:45 PM - 4:00 PM, MW, Lakeshore, [#]_ 
+    2,  Tori Noquez, 4:15 PM - 5:30 PM, MW, Lakeshore, [#]_ 
 
 .. rubric:: Notes
 
-.. [#] This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
+.. [#] This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
 
 :doc:`comp170`
 ----------------
@@ -191,7 +191,7 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    01E, TBD, 7:00 PM - 9:30 PM, W, Water Tower, [#]_ 
+    01E,  Matt Bone, 7:00 PM - 9:30 PM, W, Water Tower, [#]_ 
 
 .. rubric:: Notes
 
@@ -214,7 +214,7 @@ Undergraduate Courses
     :widths: 10, 175, 75, 30, 50, 50
 
     1, Matthew Paul Butcher, TBD, TBD, Online, [#]_ 
-    01W, Roxanne Schwab, 7:00 PM - 9:30 PM, M, Lakeshore, [#]_ 
+    01W, Roxanne Schwab, 6:00 PM - 8:30 PM, W, Lakeshore, [#]_ 
 
 .. rubric:: Notes
 
@@ -252,15 +252,6 @@ Undergraduate Courses
 
     1, George Thiruvathukal, 6:00 PM - 8:30 PM, Tr, Lakeshore, N/A 
 
-:doc:`comp339`
-----------------
-
-.. csv-table::
-    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
-    :widths: 10, 175, 75, 30, 50, 50
-
-    1, Sarah Kaylor, 7:00 PM - 9:30 PM, M, Lakeshore, N/A 
-
 :doc:`comp340`
 ----------------
 
@@ -272,7 +263,7 @@ Undergraduate Courses
 
 .. rubric:: Notes
 
-.. [#] Combined with COMP 488-340.
+.. [#] This class is offered in a blended format, with about one to two thirds of class sessions to be held online. The first class meets on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. Combined with COMP 488-340.
 
 :doc:`comp341`
 ----------------
@@ -491,7 +482,7 @@ Graduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1, TBD, 7:00 PM - 9:30 PM, W, Water Tower, [#]_ 
+    1,  Matt Bone, 7:00 PM - 9:30 PM, W, Water Tower, [#]_ 
 
 .. rubric:: Notes
 
@@ -527,15 +518,6 @@ Graduate Courses
 .. rubric:: Notes
 
 .. [#] Combined with COMP 324-001
-
-:doc:`comp439`
-----------------
-
-.. csv-table::
-    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
-    :widths: 10, 175, 75, 30, 50, 50
-
-    1, Sarah Kaylor, 7:00 PM - 9:30 PM, M, Lakeshore, N/A 
 
 :doc:`comp441`
 ----------------
@@ -607,7 +589,7 @@ Graduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1, TBD, 7:00 PM - 9:30 PM, Tr, Water Tower, N/A 
+    1,  Chris Stone, 7:00 PM - 9:30 PM, Tr, Water Tower, N/A 
 
 :doc:`comp477`
 ----------------
@@ -651,7 +633,7 @@ Graduate Courses
 .. [#] Combined with COMP 300-001
 .. [#] This class is a totally online asynchronous course.  Exams may be synchronous.  Combined with COMP 300-002.
 .. [#] Combined with COMP 305-001
-.. [#] Combined with COMP 340-001
+.. [#] This class is offered in a blended format, with about one to two thirds of class sessions to be held online. The first class meets on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. Combined with COMP 340-001
 .. [#] Combined with DIGH 402
 
 :doc:`comp490`
