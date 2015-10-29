@@ -662,7 +662,7 @@ COMP 383-1: Computational Biology
 
 Instructor: Heather E. Wheeler 
 
-Time: 2:45 PM - 4:05 PM
+Time: 2:45 PM - 4:05 PM (Monday) 2:45 PM - 4:45 PM (Wednesday)
 
 Day(s): Monday Wednesday 
 

@@ -370,7 +370,8 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1, Heather E. Wheeler, 2:45 PM - 4:05 PM, MW, Lakeshore, [#]_ 
+    1-M, Heather E. Wheeler, 2:45 PM - 4:05 PM, M, Lakeshore, [#]_ 
+    1-w, Heather E. Wheeler, 2:45 PM - 4:45 PM, W, Lakeshore, [#]_
 
 .. rubric:: Notes
 
