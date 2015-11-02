@@ -1194,8 +1194,8 @@ Campus: Lakeshore
 
 Course Description: :doc:`comp484`
 
-COMP 488-7: Computer Science Topics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 488-7: Physical Design and Fabrication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: TBD 
 
@@ -1207,8 +1207,8 @@ Campus: Lakeshore
 
 Course Description: :doc:`comp488`
 
-COMP 488-301: Computer Science Topics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 488-301: Data Warehousing and Data Mining
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: Channah Naiman 
 
@@ -1222,8 +1222,8 @@ Notes: Combined with COMP 300-001
 
 Course Description: :doc:`comp488`
 
-COMP 488-302: Computer Science Topics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 488-302: Data Warehousing and Data Mining
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: Channah Naiman 
 
@@ -1237,7 +1237,7 @@ Notes: This class is a totally online asynchronous course.  Exams may be synchro
 
 Course Description: :doc:`comp488`
 
-COMP 488-305: Computer Science Topics
+COMP 488-305: Database Administration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: Peter L Dordal 
@@ -1252,8 +1252,8 @@ Notes: Combined with COMP 305-001
 
 Course Description: :doc:`comp488`
 
-COMP 488-340: Computer Science Topics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 488-340: Computer Forensics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: Thomas Yarrish 
 
@@ -1267,8 +1267,8 @@ Notes: This class is offered in a blended format, with about one to two thirds o
 
 Course Description: :doc:`comp488`
 
-COMP 488-383: Computer Science Topics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 488-383: Computational Biology
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: Heather E. Wheeler 
 
@@ -1280,8 +1280,8 @@ Campus: Lakeshore
 
 Course Description: :doc:`comp488`
 
-COMP 488-402: Computer Science Topics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 488-402: Intro Digital Humanities Design & Programming
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: Nicholas J Hayward 
 

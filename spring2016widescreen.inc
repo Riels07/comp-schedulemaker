@@ -646,13 +646,13 @@ Graduate Courses
     :header: "Section", "Topic", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 100, 75, 75, 30, 50, 50
 
-    7, Computer Science Topics, TBD, 7:00 PM - 9:30 PM, M, Lakeshore, N/A 
-    301, Computer Science Topics, Channah Naiman, 4:15 PM - 6:45 PM, W, Water Tower, [#]_ 
-    302, Computer Science Topics, Channah Naiman, TBD, TBD, Online, [#]_ 
-    305, Computer Science Topics, Peter L Dordal, 4:15 PM - 6:45 PM, T, Water Tower, [#]_ 
-    340, Computer Science Topics, Thomas Yarrish, 7:00 PM - 9:30 PM, W, Water Tower, [#]_ 
-    383, Computer Science Topics, Heather E. Wheeler, 2:45 PM - 4:05 PM, MW, Lakeshore, N/A 
-    402, Computer Science Topics, Nicholas J Hayward, 4:15 PM - 6:45 PM, W, Water Tower, [#]_ 
+    7, Physical Design and Fabrication, TBD, 7:00 PM - 9:30 PM, M, Lakeshore, N/A 
+    301, Data Warehousing and Data Mining, Channah Naiman, 4:15 PM - 6:45 PM, W, Water Tower, [#]_ 
+    302, Data Warehousing and Data Mining, Channah Naiman, TBD, TBD, Online, [#]_ 
+    305, Database Administration, Peter L Dordal, 4:15 PM - 6:45 PM, T, Water Tower, [#]_ 
+    340, Computer Forensics, Thomas Yarrish, 7:00 PM - 9:30 PM, W, Water Tower, [#]_ 
+    383, Computational Biology, Heather E. Wheeler, 2:45 PM - 4:05 PM, MW, Lakeshore, N/A 
+    402, Intro Digital Humanities Design & Programming, Nicholas J Hayward, 4:15 PM - 6:45 PM, W, Water Tower, [#]_ 
 
 .. rubric:: Notes
 
