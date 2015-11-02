@@ -33,7 +33,7 @@ Undergraduate Courses
 
 .. rubric:: Notes
 
-.. [#] This is a writing Intensive Course. This course is blended/online (33%). MW meetings are on-campus and F meetings are linline and asynchronous. This course is restricted to undergraduate sutdents. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] This is a writing Intensive Course. This course is blended/online (33%). MW meetings are on-campus and F meetings are inline and asynchronous. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 :doc:`comp125`
 ----------------
@@ -80,7 +80,7 @@ Undergraduate Courses
 .. rubric:: Notes
 
 .. [#] This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
+.. [#] This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergrad
 
 :doc:`comp170`
 ----------------
@@ -100,11 +100,11 @@ Undergraduate Courses
 
 .. rubric:: Notes
 
-.. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002(Lecutre) will be automatticaly enrolled in COMP 170-02L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] Restricted to Engineering Science students. Students from other schools must register for one of the other sections of this course. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002(Lecture) will be automatically enrolled in COMP 170-02L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 .. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-003(Lecture) will be automatically enrolled in COMP 170-03L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004(Lecture) will be automatically enrolled in COMP 170-04L(Lab). This course is resticted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004(Lecture) will be automatically enrolled in COMP 170-04L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] Restricted to Engineering Science students. Students from other schools must register for one of the other sections of this course. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 .. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002 (Lecture) will be automatically enrolled in Comp 170-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 .. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-003 (Lecture) will be automatically enrolled in Comp 170-03L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 .. [#] This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004 (Lecture) will be automatically enrolled in Comp 170-04L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
@@ -151,10 +151,10 @@ Undergraduate Courses
 
 .. rubric:: Notes
 
-.. [#] Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
-.. [#] Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] Students enrolled in COMP 271-001 (Lecture) will be automatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] Students enrolled in COMP 271-002 (Lecture) will be automatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] Students enrolled in COMP 271-001 (Lecture) will be automatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] Students enrolled in COMP 271-002 (Lecture) will be automatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 :doc:`comp300`
 ----------------
@@ -243,6 +243,19 @@ Undergraduate Courses
 
 .. [#] Combined with COMP 424-001.
 
+:doc:`comp328`
+----------------
+
+.. csv-table::
+    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
+    :widths: 10, 175, 75, 30, 50, 50
+
+    1, William Huffman, 1:00 PM - 2:15 PM, TTr, Lakeshore, [#]_ 
+
+.. rubric:: Notes
+
+.. [#] COMP 328-001 is taught in conjunction with COMP 428-001, MATH 328 & 428
+
 :doc:`comp330`
 ----------------
 
@@ -291,7 +304,7 @@ Undergraduate Courses
 .. rubric:: Notes
 
 .. [#] Combined with COMP 488-001
-.. [#] This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
+.. [#] This is an online class.  The classroom session will be broadcast live on Friday evenings via Adobe Connect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
 
 :doc:`comp353`
 ----------------
@@ -313,7 +326,7 @@ Undergraduate Courses
 
 .. rubric:: Notes
 
-.. [#] This course is restricted toundergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+.. [#] This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 :doc:`comp372`
 ----------------
@@ -370,8 +383,7 @@ Undergraduate Courses
     :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 175, 75, 30, 50, 50
 
-    1-M, Heather E. Wheeler, 2:45 PM - 4:05 PM, M, Lakeshore, [#]_ 
-    1-w, Heather E. Wheeler, 2:45 PM - 4:45 PM, W, Lakeshore, [#]_
+    1, Heather E. Wheeler, 2:45 PM - 4:05 PM, MW, Lakeshore, [#]_ 
 
 .. rubric:: Notes
 
@@ -384,10 +396,10 @@ Undergraduate Courses
     :header: "Section", "Topic", "Instructor", "Time", "Day(s)", "Campus", "Note"
     :widths: 10, 100, 75, 75, 30, 50, 50
 
-    4, Topics in Computers Science, Andrew N Harrington, See Note, See Note, Water Tower, [#]_ 
-    5, Topics in Computers Science, Peter L Dordal, See Note, See Note, Water Tower, [#]_ 
-    6, Topics in Computers Science, Jose Luis Gahete Diaz, 2:45 PM - 4:00 PM, F, Lakeshore, N/A 
-    7, Topics in Computers Science, TBD, 7:00 PM - 9:30 PM, M, Lakeshore, [#]_ 
+    4, Foundations of Computer Science I, Andrew N Harrington, See Note, See Note, Water Tower, [#]_ 
+    5, Foundations of Computer Science II, Peter L Dordal, See Note, See Note, Water Tower, [#]_ 
+    6, Programming Languages and Systems Seminar, Jose Luis Gahete Diaz, 2:45 PM - 4:00 PM, F, Lakeshore, N/A 
+    7, Phystical Design and Fabrication, TBD, 7:00 PM - 9:30 PM, M, Lakeshore, [#]_ 
 
 .. rubric:: Notes
 
@@ -520,6 +532,19 @@ Graduate Courses
 
 .. [#] Combined with COMP 324-001
 
+:doc:`comp428`
+----------------
+
+.. csv-table::
+    :header: "Section", "Instructor", "Time", "Day(s)", "Campus", "Note"
+    :widths: 10, 175, 75, 30, 50, 50
+
+    1, William Huffman, 1:00 PM - 2:15 PM, TTr, Lakeshore, [#]_ 
+
+.. rubric:: Notes
+
+.. [#] COMP 428-001 is taught in conjunction with COMP 328-001, MATH 328 & 428
+
 :doc:`comp441`
 ----------------
 
@@ -546,7 +571,7 @@ Graduate Courses
 .. rubric:: Notes
 
 .. [#] Combined with COMP 348-001
-.. [#] This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
+.. [#] This is an online class.  The classroom session will be broadcast live on Friday evenings via Adobe Connect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
 
 :doc:`comp460`
 ----------------

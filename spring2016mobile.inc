@@ -33,7 +33,7 @@ Day(s): Monday Wednesday Friday
 
 Campus: Lakeshore
 
-Notes: This is a writing Intensive Course. This course is blended/online (33%). MW meetings are on-campus and F meetings are linline and asynchronous. This course is restricted to undergraduate sutdents. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: This is a writing Intensive Course. This course is blended/online (33%). MW meetings are on-campus and F meetings are inline and asynchronous. This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp111`
 
@@ -138,7 +138,7 @@ Day(s): Monday Wednesday
 
 Campus: Lakeshore
 
-Notes: This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergra
+Notes: This class is offered in a blended format, with about the final third of class sessions to be held online. Class sessions during the first two thirds of the term will meet on campus as scheduled. Details on schedule and format of the online sessions will be provided as part of the course syllabus at the beginning of the term. This course is primarily intended to serve certain majors and minors. Students wishing to satisfy Core requirements in the Quantitative Analysis knowledge area are encouraged to enroll in Comp 125 or Comp 150 instead. This course is restricted to undergrad
 
 Course Description: :doc:`comp163`
 
@@ -153,7 +153,7 @@ Day(s): Tuesday Thursday
 
 Campus: Lakeshore
 
-Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: Restricted to Engineering Science students. Students from other schools must register for one of the other sections of this course. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -168,7 +168,7 @@ Day(s): Monday Wednesday
 
 Campus: Lakeshore
 
-Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002(Lecutre) will be automatticaly enrolled in COMP 170-02L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-002(Lecture) will be automatically enrolled in COMP 170-02L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -198,7 +198,7 @@ Day(s): Monday Wednesday
 
 Campus: Lakeshore
 
-Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004(Lecture) will be automatically enrolled in COMP 170-04L(Lab). This course is resticted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-004(Lecture) will be automatically enrolled in COMP 170-04L(Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -213,7 +213,7 @@ Day(s): Tuesday Thursday
 
 Campus: Lakeshore
 
-Notes: This course is restricted to students in the College of Arts and Sciences. Students from other schools specifically wishing to enroll in COMP 170 should contact the Computer Science Department to request an enrollment override. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: Restricted to Engineering Science students. Students from other schools must register for one of the other sections of this course. Students enrolled in COMP 170-001 (Lecture) will be automatically enrolled in Comp 170-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp170`
 
@@ -318,7 +318,7 @@ Day(s): Tuesday Thursday
 
 Campus: Lakeshore
 
-Notes: Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: Students enrolled in COMP 271-001 (Lecture) will be automatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp271`
 
@@ -333,7 +333,7 @@ Day(s): Wednesday
 
 Campus: Lakeshore
 
-Notes: Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: Students enrolled in COMP 271-002 (Lecture) will be automatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp271`
 
@@ -348,7 +348,7 @@ Day(s): Tuesday Thursday
 
 Campus: Lakeshore
 
-Notes: Students enrolled in COMP 271-001 (Lecture) will be auromatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: Students enrolled in COMP 271-001 (Lecture) will be automatically enrolled in COMP 271-01L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp271`
 
@@ -363,7 +363,7 @@ Day(s): Wednesday
 
 Campus: Lakeshore
 
-Notes: Students enrolled in COMP 271-002 (Lecture) will be auromatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: Students enrolled in COMP 271-002 (Lecture) will be automatically enrolled in COMP 271-02L (Lab). This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp271`
 
@@ -498,6 +498,21 @@ Notes: Combined with COMP 424-001.
 
 Course Description: :doc:`comp324`
 
+COMP 328-1: Algebraic Coding Theory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Instructor: William Huffman 
+
+Time: 1:00 PM - 2:15 PM
+
+Day(s): Tuesday Thursday 
+
+Campus: Lakeshore
+
+Notes: COMP 328-001 is taught in conjunction with COMP 428-001, MATH 328 & 428
+
+Course Description: :doc:`comp328`
+
 COMP 330-1: Software Engineering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -567,7 +582,7 @@ Day(s): TBD
 
 Campus: Online
 
-Notes: This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
+Notes: This is an online class.  The classroom session will be broadcast live on Friday evenings via Adobe Connect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 448-002.
 
 Course Description: :doc:`comp348`
 
@@ -595,7 +610,7 @@ Day(s): Thursday
 
 Campus: Lakeshore
 
-Notes: This course is restricted toundergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
+Notes: This course is restricted to undergraduate students. Graduate students wishing to enroll in a section of this course should contact their departmental graduate advisor.
 
 Course Description: :doc:`comp363`
 
@@ -662,7 +677,7 @@ COMP 383-1: Computational Biology
 
 Instructor: Heather E. Wheeler 
 
-Time: 2:45 PM - 4:05 PM (Monday) 2:45 PM - 4:45 PM (Wednesday)
+Time: 2:45 PM - 4:05 PM
 
 Day(s): Monday Wednesday 
 
@@ -672,8 +687,8 @@ Notes: Combined with COMP 488-383.
 
 Course Description: :doc:`comp383`
 
-COMP 388-4: Topics in Computers Science
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 388-4: Foundations of Computer Science I
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **This course meets during the first 8 week session of the semester.**
 
@@ -689,8 +704,8 @@ Notes: Foundations of Computer Science I.  Eight Week-First Session.  This secti
 
 Course Description: :doc:`comp388`
 
-COMP 388-5: Topics in Computers Science
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 388-5: Foundations of Computer Science II
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **This course meets during the second 8 week session of the semester.**
 
@@ -706,8 +721,8 @@ Notes: Foundations of Computer Science II.  Eight Week-Second Session.  This sec
 
 Course Description: :doc:`comp388`
 
-COMP 388-6: Topics in Computers Science
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 388-6: Programming Languages and Systems Seminar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: Jose Luis Gahete Diaz 
 
@@ -719,8 +734,8 @@ Campus: Lakeshore
 
 Course Description: :doc:`comp388`
 
-COMP 388-7: Topics in Computers Science
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMP 388-7: Phystical Design and Fabrication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instructor: TBD 
 
@@ -1035,6 +1050,21 @@ Notes: Combined with COMP 324-001
 
 Course Description: :doc:`comp424`
 
+COMP 428-1: Algebraic Coding Theory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Instructor: William Huffman 
+
+Time: 1:00 PM - 2:15 PM
+
+Day(s): Tuesday Thursday 
+
+Campus: Lakeshore
+
+Notes: COMP 428-001 is taught in conjunction with COMP 328-001, MATH 328 & 428
+
+Course Description: :doc:`comp428`
+
 COMP 441-1: Human-Computer Interface Design
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1076,7 +1106,7 @@ Day(s): TBD
 
 Campus: Online
 
-Notes: This is an online class.  The classroom session will be broadcast live on Friday evenings via AdobeConnect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
+Notes: This is an online class.  The classroom session will be broadcast live on Friday evenings via Adobe Connect allowing online student interaction.  Sessions will also be recorded and made available.  Students may participate synchronously or asynchronously at their discretion.  Combined with COMP 348-002.
 
 Course Description: :doc:`comp448`
 
